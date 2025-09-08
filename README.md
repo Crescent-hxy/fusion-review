@@ -26,5 +26,5 @@
 | CCSR-Net-Fusion   | IF 2025       | **CCSR-Net: Unfolding coupled convolutional sparse representation for multi-focus image fusion** | [Paper](链接) | [Code](https://github.com/yuliu316316/CCSR-Net-Fusion.git) |
 | FS-Diff   | IF 2025       | **FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution.** | [Paper](链接) | [Code](https://github.com/XylonXu01/FS-Diff.git) |
 | IM-Fuse   | MICCAI 2025 | **IM-Fuse: Mamba-based Fusion Block for Brain Tumor Segmentation with Incomplete Modalities**      | [Paper](链接)        | [Code](https://github.com/AImageLab-zip/IM-Fuse) |
-         |
+| BSAFusion   | AAAL 2025       | **BSAFusion A Bidirectional Stepwise Feature Alignment Network for Unaligned** | [Paper](链接) | [Code](https://github.com/slrl123/BSAFusion.git) |
 
