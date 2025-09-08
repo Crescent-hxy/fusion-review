@@ -19,13 +19,12 @@
 | MMAE   | PR 2025       | **MMAE: A universal image fusion method via mask attention mechanism** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007921) | [Code](https://github.com/xiangxiang-wang/MMAE.git) |
 | LFDT-Fusion   | IF 2025       | **LFDT-Fusion: A Latent Feature-guided Diffusion Transformer Model for General Image Fusion** | [Paper](链接) | [Code](https://github.com/BOYang-pro/LFDT-Fusion.git) |
 | MSPFusion   | ESWA 2025       | **MSPFusion: A feature transformer for multidimensional Spectral-Polarization image fusion** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417425007018?via%3Dihub) | [Code](https://github.com/tgg-77/MSPFusion.git) |
-| ReferenceSupervisionIVIF
-   | PR 2025       | **Reference-then-Supervision Framework for Infrared and Visible Image Fusion** | [Paper](链接) | [Code](https://github.com/zhenglab/ReferenceSupervisionIVIF.git) |
+| ReferenceSupervisionIVIF| PR 2025       | **Reference-then-Supervision Framework for Infrared and Visible Image Fusion** | [Paper](链接) | [Code](https://github.com/zhenglab/ReferenceSupervisionIVIF.git) |
 | MLFuse   | TMM 2025       | **MLFuse: Multi-scenario Feature Joint Learning for Multi-Modality Image Fusion** | [Paper](链接) | [Code](https://github.com/jialei-sc/MLFuse.git) |
 | SSDFusion   | PR 2025       | **SSDFusion: A scene-semantic decomposition approach for visible and infrared image fusion** | [Paper](链接) | [Code](https://github.com/YiXian-Xiao/SSDFusion.git) |
 | DMANet   | AAAL 2025       | **Multi-Focus Image Fusion via Explicit Defocus Blur Modelling** | [Paper](https://github.com/Tangzitao/DMANet/blob/main/paper.pdf) | [Code](https://github.com/Tangzitao/DMANet.git) |
 | CCSR-Net-Fusion   | IF 2025       | **CCSR-Net: Unfolding coupled convolutional sparse representation for multi-focus image fusion** | [Paper](链接) | [Code](https://github.com/yuliu316316/CCSR-Net-Fusion.git) |
 | FS-Diff   | IF 2025       | **FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution.** | [Paper](链接) | [Code](https://github.com/XylonXu01/FS-Diff.git) |
-| IM-Fuse   | MICCAI 2025 | **IM-Fuse: Mamba-based Fusion Block for Brain Tumor Segmentation with Incomplete Modalities**      | \[Paper via GitHub repo]                  | [Code](https://github.com/AImageLab-zip/IM-Fuse) |
+| IM-Fuse   | MICCAI 2025 | **IM-Fuse: Mamba-based Fusion Block for Brain Tumor Segmentation with Incomplete Modalities**      | [Paper](链接)        | [Code](https://github.com/AImageLab-zip/IM-Fuse) |
          |
 
