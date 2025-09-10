@@ -28,5 +28,5 @@
 | IM-Fuse   | MICCAI 2025 | **IM-Fuse: Mamba-based Fusion Block for Brain Tumor Segmentation with Incomplete Modalities**      | [Paper](链接)        | [Code](https://github.com/AImageLab-zip/IM-Fuse) |
 | BSAFusion   | AAAL 2025       | **BSAFusion A Bidirectional Stepwise Feature Alignment Network for Unaligned** | [Paper](链接) | [Code](https://github.com/slrl123/BSAFusion.git) |
 | FS-Diff   | IF 2025       | **FS-Diff: Semantic Guidance and Clarity-Aware Simultaneous Multimodal Image Fusion and Super-Resolution** | [Paper](链接) | [Code](https://github.com/XylonXu01/FS-Diff) |
-
+| GrFormer   | IF 2025       | **GrFormer: A Novel Transformer on Grassmann Manifold for Infrared and Visible Image Fusion** | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525004750?via%3Dihub) | [Code](https://github.com/Shaoyun2023/GrFormer) |
 
