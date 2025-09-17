@@ -33,6 +33,9 @@
 | OCCO   | IJCV 2025       | **OCCO: LVM-guided Infrared and Visible Image Fusion Framework based on Object-aware and Contextual COntrastive Learning** | [Paper](https://link.springer.com/article/10.1007/s11263-025-02507-2) | [Code](https://github.com/bociic/OCCO) |
 | Fusionbooster   | IJCV 2025       | **Fusionbooster: A unified image fusion boosting paradigm** | [Paper](https://arxiv.org/pdf/2305.05970) | [Code](https://github.com/AWCXV/FusionBooster) |
 | FreeFusion   | TPAMI 2025       | **FreeFusion: Infrared and Visible Image Fusion via Cross Reconstruction Learning** | [Paper](https://ieeexplore.ieee.org/document/11010882) | [Code](https://github.com/HengshuaiCui/FreeFusion.git) |
+| ReFusion   | CVPR 2025       | **ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning** | [Paper](https://link.springer.com/article/10.1007/s11263-024-02256-8) | [Code](https://github.com/HaowenBai/ReFusion.) |
+
+
 
 ---
 # fusion_registration-review ___Task2
@@ -42,3 +45,4 @@
 | -   | ITJ 2025       | **A Collaborative Fusion and Registration Framework for Multimodal Image Fusion** | [Paper](https://ieeexplore.ieee.org/document/11003113) | [Code](链接) |
 | PSRF-DiffNet   | TGRS 2025       | **Progressive Synergistic Registration and Fusion Diffusion Network for Unregistered Hyperspectral and Multispectral Image Fusion** | [Paper](https://ieeexplore.ieee.org/document/10976398) | [Code](https://github.com/Jiahuiqu/PSRF-DiffNet) |
 | PGMR   | TCSVT 2025       | **Plug-and-Play General Image Registration for Misaligned Multi-Modal Image Fusion** | [Paper](https://ieeexplore.ieee.org/document/11005625) | [Code](https://github.com/stwts/PGMR) |
+| AU-Net   | TIP 2025       | **AU-Net: Adaptive Unified Network for Joint Multi-Modal Image Registration and Fusion** | [Paper](https://ieeexplore.ieee.org/abstract/document/11079838) | [Code](https://github.com/luming1314/AU-Net) |
