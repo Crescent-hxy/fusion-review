@@ -35,7 +35,7 @@
 | FreeFusion   | TPAMI 2025       | **FreeFusion: Infrared and Visible Image Fusion via Cross Reconstruction Learning** | [Paper](https://ieeexplore.ieee.org/document/11010882) | [Code](https://github.com/HengshuaiCui/FreeFusion.git) |
 | ReFusion   | CVPR 2025       | **ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning** | [Paper](https://link.springer.com/article/10.1007/s11263-024-02256-8) | [Code](https://github.com/HaowenBai/ReFusion.) |
 | CTIUFuse   | KBS 2025       | **CTIUFuse: A CNN-Transformer-based iterative feature universal fusion algorithm for multimodal images** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705125013541?via%3Dihub) | [Code](https://github.com/L1nCyk/CTIUFuse.) |
-
+| VDMUFusion   | TIP 2024       | **VDMUFusion: A Versatile Diffusion Model-Based Unsupervised Framework for Image Fusion** | [Paper](https://ieeexplore.ieee.org/abstract/document/10794610) | [Code](https://github.com/yuliu316316/VDMUFusion) |
 
 ---
 # fusion_registration-review ___Task2
