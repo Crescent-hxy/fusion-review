@@ -37,6 +37,14 @@
 | CTIUFuse   | KBS 2025       | **CTIUFuse: A CNN-Transformer-based iterative feature universal fusion algorithm for multimodal images** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705125013541?via%3Dihub) | [Code](https://github.com/L1nCyk/CTIUFuse.) |
 | VDMUFusion   | TIP 2024       | **VDMUFusion: A Versatile Diffusion Model-Based Unsupervised Framework for Image Fusion** | [Paper](https://ieeexplore.ieee.org/abstract/document/10794610) | [Code](https://github.com/yuliu316316/VDMUFusion) |
 | EMMA   | CVPR 2024       | **Equivariant Multi-Modality Image Fusion** | [Paper](链接) | [Code](https://github.com/Zhaozixiang1228/MMIF-EMMA) |
+| LUTFuse   | ICCV 2025       | **LUT-Fuse: Towards Extremely Fast Infrared and Visible Image Fusion via Distillation to Learnable Look-Up Tables** | [Paper](https://arxiv.org/pdf/2509.00346) | [Code](https://github.com/zyb5/LUT-Fuse.git) |
+| MAFS   | TIP 2025       | **MAFS: Masked Autoencoder for Infrared-VisibleImage Fusion and Semantic Segmentation** | [Paper](https://arxiv.org/pdf/2509.11817) | [Code](https://github.com/Abraham-Einstein/MAFS/) |
+| OmniFuse   | TPAMI 2025       | **OmniFuse: Composite Degradation-Robust Image Fusion with Language-Driven Semantics** | [Paper](链接) | [Code](https://github.com/HaoZhang1018/OmniFuse) |
+
+
+
+
+
 
 ---
 # fusion_registration-review ___Task2
