@@ -64,3 +64,11 @@
 | IMF   | TCSVT 2024       | **Improving Misaligned Multi-modality Image Fusion with One-stage Progressive Dense Registration** | [Paper](https://arxiv.org/pdf/2308.11165) | [Code](https://github.com/wdhudiekou/IMF) |
 | DPRF   | The Visual Computer 2025       | **Dual-Pyramid Framework for Robust Infrared-Visible Image Registration and Fusion via Convolutional Dictionary Learning** | [Paper](链接) | [Code](https://github.com/fdaijdfina/DPRF) |
 | SA-DNet   | EAAI 2025       | **An end-to-end semantic-guided infrared and visible registration-fusion network for advanced visual tasks** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197625004890?via%3Dihub) | [Code](https://github.com/Meng-Sang/SA-DNet) |
+
+
+---
+# fusion_task driven-review ___Task3
+| 方法名       | 期刊/会议 & 年份  | 文章全称                                                                                               | Paper 链接                                  | Code 链接                                          |
+| --------- | ----------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------ |
+| 新方法X   | CVPR 2025       | **新方法X的完整名字** | [Paper](链接) | [Code](链接) |
+| Refusion   | IJCV 2024       | **Refusion: Learning image fusion from reconstruction with learnable loss via meta-learning** | [Paper](链接) | [Code](https://github.com/HaowenBai/ReFusion) |
