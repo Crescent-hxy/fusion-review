@@ -39,7 +39,7 @@
 | LUTFuse   | ICCV 2025       | **LUT-Fuse: Towards Extremely Fast Infrared and Visible Image Fusion via Distillation to Learnable Look-Up Tables** | [Paper](https://arxiv.org/pdf/2509.00346) | [Code](https://github.com/zyb5/LUT-Fuse.git) |
 | MAFS   | TIP 2025       | **MAFS: Masked Autoencoder for Infrared-VisibleImage Fusion and Semantic Segmentation** | [Paper](https://arxiv.org/pdf/2509.11817) | [Code](https://github.com/Abraham-Einstein/MAFS/) |
 | OmniFuse   | TPAMI 2025       | **OmniFuse: Composite Degradation-Robust Image Fusion with Language-Driven Semantics** | [Paper](链接) | [Code](https://github.com/HaoZhang1018/OmniFuse) |
-
+| MixFuse   | ESWA 2025       | **MixFuse: An iterative mix-attention transformer for multi-modal image fusion** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417424022942?via%3Dihub) | [Code](https://github.com/Bitlijinfu/MixFuse.git) |
 
 
 
@@ -61,6 +61,6 @@
 | DTMFusion   | PR 2025       | **Dual-teacher self-distillation registration for multi-modality medical image fusion** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320325010349?via%3Dihub) | (-) |
 | SSC-HSR   | IJCV 2025       | **Unaligned RGB Guided Hyperspectral Image Super-Resolution with Spatial-Spectral Concordance** | [Paper](https://link.springer.com/article/10.1007/s11263-025-02466-8) | [Code](https://github.com/BITYKZhang/SSC-HSR) |
 | PMI-RFCoNet   | TGRS 2025       | **PMI-RFCoNet for Unregistered Hyperspectral Image Super-Resolution** | [Paper](10.1109/TGRS.2024.3408424) | [Code](https://github.com/Jiahuiqu/PMI-RFCoNet) |
-| IMF   | TCSVT 2024       | **Improving Misaligned Multi-modality Image Fusion with One-stage Progressive Dense Registration ** | [Paper](https://arxiv.org/pdf/2308.11165) | [Code](https://github.com/wdhudiekou/IMF) |
+| IMF   | TCSVT 2024       | **Improving Misaligned Multi-modality Image Fusion with One-stage Progressive Dense Registration** | [Paper](https://arxiv.org/pdf/2308.11165) | [Code](https://github.com/wdhudiekou/IMF) |
 | DPRF   | The Visual Computer 2025       | **Dual-Pyramid Framework for Robust Infrared-Visible Image Registration and Fusion via Convolutional Dictionary Learning** | [Paper](链接) | [Code](https://github.com/fdaijdfina/DPRF) |
 | SA-DNet   | EAAI 2025       | **An end-to-end semantic-guided infrared and visible registration-fusion network for advanced visual tasks** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197625004890?via%3Dihub) | [Code](https://github.com/Meng-Sang/SA-DNet) |
