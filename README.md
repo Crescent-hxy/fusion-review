@@ -27,7 +27,6 @@
 | FS-Diff   | IF 2025       | **FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution.** | [Paper](-) | [Code](https://github.com/XylonXu01/FS-Diff.git) |
 | IM-Fuse   | MICCAI 2025 | **IM-Fuse: Mamba-based Fusion Block for Brain Tumor Segmentation with Incomplete Modalities**      | [Paper](-)        | [Code](https://github.com/AImageLab-zip/IM-Fuse) |
 | BSAFusion   | AAAL 2025       | **BSAFusion A Bidirectional Stepwise Feature Alignment Network for Unaligned** | [Paper](链接) | [Code](https://github.com/slrl123/BSAFusion.git) |
-| FS-Diff   | IF 2025       | **FS-Diff: Semantic Guidance and Clarity-Aware Simultaneous Multimodal Image Fusion and Super-Resolution** | [Paper](-) | [Code](https://github.com/XylonXu01/FS-Diff) |
 | GrFormer   | IF 2025       | **GrFormer: A Novel Transformer on Grassmann Manifold for Infrared and Visible Image Fusion** | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525004750?via%3Dihub) | [Code](https://github.com/Shaoyun2023/GrFormer) |
 | S4Fusion   | TIP 2025       | **S4Fusion: Saliency-Aware Selective State Space Model for Infrared and Visible Image Fusion** | [Paper](https://ieeexplore.ieee.org/document/11062462) | [Code](https://github.com/zipper112/S4Fusion) |
 | OCCO   | IJCV 2025       | **OCCO: LVM-guided Infrared and Visible Image Fusion Framework based on Object-aware and Contextual COntrastive Learning** | [Paper](https://link.springer.com/article/10.1007/s11263-025-02507-2) | [Code](https://github.com/bociic/OCCO) |
