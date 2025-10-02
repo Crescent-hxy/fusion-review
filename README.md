@@ -40,8 +40,8 @@
 | MAFS   | TIP 2025       | **MAFS: Masked Autoencoder for Infrared-VisibleImage Fusion and Semantic Segmentation** | [Paper](https://arxiv.org/pdf/2509.11817) | [Code](https://github.com/Abraham-Einstein/MAFS/) |
 | OmniFuse   | TPAMI 2025       | **OmniFuse: Composite Degradation-Robust Image Fusion with Language-Driven Semantics** | [Paper](链接) | [Code](https://github.com/HaoZhang1018/OmniFuse) |
 | MixFuse   | ESWA 2025       | **MixFuse: An iterative mix-attention transformer for multi-modal image fusion** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417424022942?via%3Dihub) | [Code](https://github.com/Bitlijinfu/MixFuse.git) |
-
-
+| ControlFusion   | NeurIPS 2025       | **ControlFusion: A Controllable Image Fusion Framework with Language-Vision Degradation Prompts** | [Paper](链接) | [Code](https://github.com/Linfeng-Tang/ControlFusion) |
+| Mask-DiFuser   | TPAMI 2025       | **Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion** | [Paper](链接) | [Code](https://github.com/Linfeng-Tang/Mask-DiFuser?tab=readme-ov-file) |
 
 
 
