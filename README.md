@@ -42,7 +42,7 @@
 | MixFuse   | ESWA 2025       | **MixFuse: An iterative mix-attention transformer for multi-modal image fusion** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417424022942?via%3Dihub) | [Code](https://github.com/Bitlijinfu/MixFuse.git) |
 | ControlFusion   | NeurIPS 2025       | **ControlFusion: A Controllable Image Fusion Framework with Language-Vision Degradation Prompts** | [Paper](链接) | [Code](https://github.com/Linfeng-Tang/ControlFusion) |
 | Mask-DiFuser   | TPAMI 2025       | **Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion** | [Paper](链接) | [Code](https://github.com/Linfeng-Tang/Mask-DiFuser?tab=readme-ov-file) |
-
+| RPFNet   | CVPR 2025       | **Residual Prior-driven Frequency-aware Network for Image Fusion** | [Paper](https://arxiv.org/pdf/2507.06735) | [Code](https://github.com/wang-x-1997/RPFNet.git) |
 
 
 ---
