@@ -2,7 +2,7 @@
 
 | 方法名       | 期刊/会议 & 年份  | 文章全称                                                                                               | Paper 链接                                  | Code 链接                                          |
 | --------- | ----------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------ |
-| IDF-TDDT   | CVPR 2025       | **新方法X的完整名字** | [Paper](链接) | [Code](链接) |
+| IDF-TDDT   | 期刊 2025       | **新方法X的完整名字** | [Paper](链接) | [Code](链接) |
 | DCEvo   | CVPR 2025       | **DCEvo: Discriminative Cross-dimensional Evolutionary Learning for Infrared and Visible Image Fusion** | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_DCEvo_Discriminative_Cross-Dimensional_Evolutionary_Learning_for_Infrared_and_Visible_Image_CVPR_2025_paper.html) | [Code](https://github.com/Beate-Suy-Zhang/DCEvo.git) |
 | DM-FNet   | TMM 2025       | **Official implementation for "DM-FNet: Unified multimodal medical image fusion via diffusion process-trained encoder-decoder"** | [Paper](https://arxiv.org/abs/2506.15218) | [Code](https://github.com/HeDan-11/DM-FNet.git) |
 | F2Fusion   | TIM 2025       | **F2Fusion: Frequency Feature Fusion Network for Infrared and Visible Image via Contourlet Transform and Mamba-UNet** | [Paper](-) | [Code](https://github.com/lrh-1994/F2Fusion.git) |
@@ -45,7 +45,7 @@
 | RPFNet   | CVPR 2025       | **Residual Prior-driven Frequency-aware Network for Image Fusion** | [Paper](https://arxiv.org/pdf/2507.06735) | [Code](https://github.com/wang-x-1997/RPFNet.git) |
 | FlexiD-Fuse   | ESWA 2025       | **FlexiD-Fuse: Flexible number of inputs multi-modal medical image fusion based on diffusion model** | [Paper](链接) | [Code](https://github.com/XylonXu01/FlexiD-Fuse) |
 | CHITNet   | TIM 2025       | **CHITNet: A Complementary to Harmonious Information Transfer Network for Infrared and Visible Image Fusion** | [Paper](链接) | [Code](https://github.com/lhf12278/CHITNet) |
-
+| Conti-Fuse   | IF 2025       | **Conti-Fuse: A Novel Continuous Decomposition-based Fusion Framework for Infrared and Visible Images** | [Paper](https://arxiv.org/abs/2406.04689) | [Code](https://github.com/zipper112/Conti-Fuse) |
 
 
 
