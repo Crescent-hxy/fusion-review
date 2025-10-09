@@ -43,7 +43,7 @@
 | ControlFusion   | NeurIPS 2025       | **ControlFusion: A Controllable Image Fusion Framework with Language-Vision Degradation Prompts** | [Paper](链接) | [Code](https://github.com/Linfeng-Tang/ControlFusion) |
 | Mask-DiFuser   | TPAMI 2025       | **Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion** | [Paper](链接) | [Code](https://github.com/Linfeng-Tang/Mask-DiFuser?tab=readme-ov-file) |
 | RPFNet   | CVPR 2025       | **Residual Prior-driven Frequency-aware Network for Image Fusion** | [Paper](https://arxiv.org/pdf/2507.06735) | [Code](https://github.com/wang-x-1997/RPFNet.git) |
-
+| FlexiD-Fuse   | ESWA 2025       | **FlexiD-Fuse: Flexible number of inputs multi-modal medical image fusion based on diffusion model** | [Paper](链接) | [Code](https://github.com/XylonXu01/FlexiD-Fuse) |
 
 ---
 # fusion_registration-review ___Task2
