@@ -44,6 +44,11 @@
 | Mask-DiFuser   | TPAMI 2025       | **Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion** | [Paper](链接) | [Code](https://github.com/Linfeng-Tang/Mask-DiFuser?tab=readme-ov-file) |
 | RPFNet   | CVPR 2025       | **Residual Prior-driven Frequency-aware Network for Image Fusion** | [Paper](https://arxiv.org/pdf/2507.06735) | [Code](https://github.com/wang-x-1997/RPFNet.git) |
 | FlexiD-Fuse   | ESWA 2025       | **FlexiD-Fuse: Flexible number of inputs multi-modal medical image fusion based on diffusion model** | [Paper](链接) | [Code](https://github.com/XylonXu01/FlexiD-Fuse) |
+| CHITNet   | TIM 2025       | **CHITNet: A Complementary to Harmonious Information Transfer Network for Infrared and Visible Image Fusion** | [Paper](链接) | [Code](https://github.com/lhf12278/CHITNet) |
+
+
+
+
 
 ---
 # fusion_registration-review ___Task2
@@ -64,6 +69,8 @@
 | IMF   | TCSVT 2024       | **Improving Misaligned Multi-modality Image Fusion with One-stage Progressive Dense Registration** | [Paper](https://arxiv.org/pdf/2308.11165) | [Code](https://github.com/wdhudiekou/IMF) |
 | DPRF   | The Visual Computer 2025       | **Dual-Pyramid Framework for Robust Infrared-Visible Image Registration and Fusion via Convolutional Dictionary Learning** | [Paper](链接) | [Code](https://github.com/fdaijdfina/DPRF) |
 | SA-DNet   | EAAI 2025       | **An end-to-end semantic-guided infrared and visible registration-fusion network for advanced visual tasks** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197625004890?via%3Dihub) | [Code](https://github.com/Meng-Sang/SA-DNet) |
+
+
 
 
 ---
