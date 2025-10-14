@@ -26,7 +26,6 @@
 | CCSR-Net-Fusion   | IF 2025       | **CCSR-Net: Unfolding coupled convolutional sparse representation for multi-focus image fusion** | [Paper](-) | [Code](https://github.com/yuliu316316/CCSR-Net-Fusion.git) |
 | FS-Diff   | IF 2025       | **FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution.** | [Paper](-) | [Code](https://github.com/XylonXu01/FS-Diff.git) |
 | IM-Fuse   | MICCAI 2025 | **IM-Fuse: Mamba-based Fusion Block for Brain Tumor Segmentation with Incomplete Modalities**      | [Paper](-)        | [Code](https://github.com/AImageLab-zip/IM-Fuse) |
-| BSAFusion   | AAAL 2025       | **BSAFusion A Bidirectional Stepwise Feature Alignment Network for Unaligned** | [Paper](链接) | [Code](https://github.com/slrl123/BSAFusion.git) |
 | GrFormer   | IF 2025       | **GrFormer: A Novel Transformer on Grassmann Manifold for Infrared and Visible Image Fusion** | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525004750?via%3Dihub) | [Code](https://github.com/Shaoyun2023/GrFormer) |
 | S4Fusion   | TIP 2025       | **S4Fusion: Saliency-Aware Selective State Space Model for Infrared and Visible Image Fusion** | [Paper](https://ieeexplore.ieee.org/document/11062462) | [Code](https://github.com/zipper112/S4Fusion) |
 | OCCO   | IJCV 2025       | **OCCO: LVM-guided Infrared and Visible Image Fusion Framework based on Object-aware and Contextual COntrastive Learning** | [Paper](https://link.springer.com/article/10.1007/s11263-025-02507-2) | [Code](https://github.com/bociic/OCCO) |
@@ -56,6 +55,7 @@
 | --------- | ----------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------ |
 | 新方法X   | CVPR 2025       | **新方法X的完整名字** | [Paper](链接) | [Code](链接) |
 | -   | ITJ 2025       | **A Collaborative Fusion and Registration Framework for Multimodal Image Fusion** | [Paper](https://ieeexplore.ieee.org/document/11003113) | (-) |
+| BSAFusion   | AAAL 2025       | **BSAFusion A Bidirectional Stepwise Feature Alignment Network for Unaligned** | [Paper](链接) | [Code](https://github.com/slrl123/BSAFusion.git) |
 | PSRF-DiffNet   | TGRS 2025       | **Progressive Synergistic Registration and Fusion Diffusion Network for Unregistered Hyperspectral and Multispectral Image Fusion** | [Paper](https://ieeexplore.ieee.org/document/10976398) | [Code](https://github.com/Jiahuiqu/PSRF-DiffNet) |
 | PGMR   | TCSVT 2025       | **Plug-and-Play General Image Registration for Misaligned Multi-Modal Image Fusion** | [Paper](https://ieeexplore.ieee.org/document/11005625) | [Code](https://github.com/stwts/PGMR) |
 | AU-Net   | TIP 2025       | **AU-Net: Adaptive Unified Network for Joint Multi-Modal Image Registration and Fusion** | [Paper](https://ieeexplore.ieee.org/abstract/document/11079838) | [Code](https://github.com/luming1314/AU-Net) |
@@ -80,3 +80,4 @@
 Instruction-driven fusion of Infrared-visible images: Tailoring for diverse downstream tasks
 | Refusion   | IJCV 2024       | **Refusion: Learning image fusion from reconstruction with learnable loss via meta-learning** | [Paper](链接) | [Code](https://github.com/HaowenBai/ReFusion) |
 | IDF-TDDT   | IF 2025       | **Instruction-Driven Fusion of Infrared-Visible Images: Tailoring for Diverse Downstream Tasks** | [Paper](链接) | [Code](https://github.com/YR0211/IDF-TDDT.git) |
+| TITA   | ICCV 2025       | **Balancing task-invariant interaction and task-specific adaptation for unified image fusion** | [Paper](https://arxiv.org/pdf/2504.05164) | [Code](https://github.com/huxingyuabc/TITA?tab=readme-ov-file) |
