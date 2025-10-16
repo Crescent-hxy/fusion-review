@@ -69,6 +69,7 @@
 | IMF   | TCSVT 2024       | **Improving Misaligned Multi-modality Image Fusion with One-stage Progressive Dense Registration** | [Paper](https://arxiv.org/pdf/2308.11165) | [Code](https://github.com/wdhudiekou/IMF) |
 | DPRF   | The Visual Computer 2025       | **Dual-Pyramid Framework for Robust Infrared-Visible Image Registration and Fusion via Convolutional Dictionary Learning** | [Paper](链接) | [Code](https://github.com/fdaijdfina/DPRF) |
 | SA-DNet   | EAAI 2025       | **An end-to-end semantic-guided infrared and visible registration-fusion network for advanced visual tasks** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197625004890?via%3Dihub) | [Code](https://github.com/Meng-Sang/SA-DNet) |
+| UAAFusion   | TCSVT 2024       | **Deep unfolding multi-modal image fusion network via attribution analysis** | [Paper](https://arxiv.org/pdf/2502.01467?) | [Code](https://github.com/HaowenBai/UAAFusion) |
 
 
 
