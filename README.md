@@ -45,6 +45,7 @@
 | FlexiD-Fuse   | ESWA 2025       | **FlexiD-Fuse: Flexible number of inputs multi-modal medical image fusion based on diffusion model** | [Paper](链接) | [Code](https://github.com/XylonXu01/FlexiD-Fuse) |
 | CHITNet   | TIM 2025       | **CHITNet: A Complementary to Harmonious Information Transfer Network for Infrared and Visible Image Fusion** | [Paper](链接) | [Code](https://github.com/lhf12278/CHITNet) |
 | Conti-Fuse   | IF 2025       | **Conti-Fuse: A Novel Continuous Decomposition-based Fusion Framework for Infrared and Visible Images** | [Paper](https://arxiv.org/abs/2406.04689) | [Code](https://github.com/zipper112/Conti-Fuse) |
+| Deno-IF  | Neural IPS 2025       | **Deno-IF: Unsupervised noisy visible and infrared image fusion method** | [Paper](https://openreview.net/pdf?id=36cKp4tsHF) | [Code](https://github.com/hanna-xu/Deno-IF) |
 
 
 
