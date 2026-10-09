@@ -4,7 +4,7 @@
 
 A collection of image fusion papers and code, focusing on publications since 2024: infrared and visible image fusion, multimodal medical image fusion, multi-focus fusion, multi-exposure fusion, remote sensing, and video fusion.
 
-**95 篇论文 · 重点更新 2024 年以来的研究**
+**103 篇论文 · 重点更新 2024 年以来的研究**
 
 按下方任务目录查找论文与代码，数据集索引见文末。
 
@@ -18,9 +18,9 @@ A collection of image fusion papers and code, focusing on publications since 202
 | 医学图像 | 20 | [查看](#medical) |
 | 通用融合 | 24 | [查看](#general) |
 | 多聚焦 | 8 | [查看](#focus) |
-| 多曝光 | 9 | [查看](#exposure) |
-| 遥感与高光谱 | 2 | [查看](#remote) |
-| 视频融合 | 1 | [查看](#video) |
+| 多曝光 | 11 | [查看](#exposure) |
+| 遥感与高光谱 | 6 | [查看](#remote) |
+| 视频融合 | 3 | [查看](#video) |
 | 融合质量评价 | 2 | [查看](#assessment) |
 | 相关工作（非双源像素融合） | 3 | [查看](#related) |
 
@@ -173,6 +173,8 @@ A collection of image fusion papers and code, focusing on publications since 202
 | **MMAE** | 2025 · Pattern Recognition | MMAE: A universal image fusion method via mask attention mechanism | 通用融合 | [Paper](https://doi.org/10.1016/j.patcog.2024.111041) · [Code](https://github.com/xiangxiang-wang/MMAE) |
 | **TITA** | 2025 · ICCV | Balancing task-invariant interaction and task-specific adaptation for unified image fusion | 通用融合 / 自适应 / 多任务优化 | [Paper](https://arxiv.org/pdf/2504.05164) · [Code](https://github.com/huxingyuabc/TITA) |
 | **UHD Dynamic MEF** | 2025 · AAAI | Ultra-High-Definition Dynamic Multi-Exposure Image Fusion via Infinite Pixel Learning | 超高清 / 动态多曝光 / 流式推理 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32224) · — |
+| **Retinex-MEF** | 2025 · ICCV | Retinex-MEF: Retinex-based Glare Effects Aware Unsupervised Multi-Exposure Image Fusion | Retinex / 眩光建模 / 无监督 | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Bai_Retinex-MEF_Retinex-based_Glare_Effects_Aware_Unsupervised_Multi-Exposure_Image_Fusion_ICCV_2025_paper.html) · — |
+| **Hybrid-Supervised Dual-Search** | 2024 · AAAI | Hybrid-Supervised Dual-Search: Leveraging Automatic Learning for Loss-Free Multi-Exposure Image Fusion | 多曝光 / 双层搜索 / 自动优化 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28413) · — |
 | **MEFLUT** | 2023 · ICCV | MEFLUT: Unsupervised 1D Lookup Tables for Multi-exposure Image Fusion | LUT / 轻量化 | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_MEFLUT_Unsupervised_1D_Lookup_Tables_for_Multi-exposure_Image_Fusion_ICCV_2023_paper.html) · [Code](https://github.com/Hedlen/MEFLUT) |
 | **U2Fusion** | 2022 · TPAMI | U2Fusion: A Unified Unsupervised Image Fusion Network | 通用融合 / 无监督 | [Paper](https://doi.org/10.1109/TPAMI.2020.3012548) · [Code](https://github.com/hanna-xu/U2Fusion) |
 | **SwinFusion** | 2022 · IEEE/CAA JAS | SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer | Transformer / 通用融合 | [Paper](https://doi.org/10.1109/JAS.2022.105686) · [Code](https://github.com/Linfeng-Tang/SwinFusion) |
@@ -184,6 +186,10 @@ A collection of image fusion papers and code, focusing on publications since 202
 | 方法 | 年份 · 发表 | 论文标题 | 技术 / 问题 | 论文 / 代码 |
 | :-- | :-- | :-- | :-- | :-- |
 | **OTPNet** | 2025 · AAAI | OTPNet: ODE-inspired Tuning-free Proximal Network for Remote Sensing Image Fusion | 遥感融合 / 深度展开 / ODE | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/33048) · — |
+| **SGDiff** | 2025 · CVPR | Dual-Granularity Semantic Guided Sparse Routing Diffusion Model for General Pansharpening | 遥感全色锐化 / 扩散 / 稀疏路由 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Xing_Dual-Granularity_Semantic_Guided_Sparse_Routing_Diffusion_Model_for_General_Pansharpening_CVPR_2025_paper.html) · [Code](https://github.com/codgodtao/SGDiff) |
+| **ARNet** | 2025 · CVPR | Adaptive Rectangular Convolution for Remote Sensing Pansharpening | 遥感全色锐化 / 自适应卷积 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Adaptive_Rectangular_Convolution_for_Remote_Sensing_Pansharpening_CVPR_2025_paper.html) · [Code](https://github.com/WangXueyang-uestc/ARConv) |
+| **ADWM** | 2025 · CVPR | A General Adaptive Dual-level Weighting Mechanism for Remote Sensing Pansharpening | 遥感全色锐化 / 双层加权 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_A_General_Adaptive_Dual-level_Weighting_Mechanism_for_Remote_Sensing_Pansharpening_CVPR_2025_paper.html) · — |
+| **DM-zs** | 2025 · CVPR | Hyperspectral Pansharpening via Diffusion Models with Iteratively Zero-Shot Guidance | 高光谱全色锐化 / 零样本扩散 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Xiao_Hyperspectral_Pansharpening_via_Diffusion_Models_with_Iteratively_Zero-Shot_Guidance_CVPR_2025_paper.html) · [Code](https://github.com/Jin-liangXiao/DM-zs) |
 | **PMI-RFCoNet** | 2024 · TGRS | Progressive Multi-Iteration Registration-Fusion Co-Optimization Network for Unregistered Hyperspectral Image Super-Resolution | 配准 / 扩散 | [Paper](https://doi.org/10.1109/TGRS.2024.3408424) · [Code](https://github.com/Jiahuiqu/PMI-RFCoNet) |
 
 <a id="video"></a>
@@ -192,6 +198,8 @@ A collection of image fusion papers and code, focusing on publications since 202
 | 方法 | 年份 · 发表 | 论文标题 | 技术 / 问题 | 论文 / 代码 |
 | :-- | :-- | :-- | :-- | :-- |
 | **VideoFusion** | 2026 · CVPR | VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion | 时序一致性 / 恢复 | [Paper](https://arxiv.org/abs/2503.23359) · [Code](https://github.com/Linfeng-Tang/VideoFusion) |
+| **Streaming Diffusion Video Fusion** | 2026 · CVPR | Streaming Diffusion Model for Fast Infrared and Visible Video Fusion | 红外可见光视频 / 流式扩散 | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Streaming_Diffusion_Model_for_Fast_Infrared_and_Visible_Video_Fusion_CVPR_2026_paper.html) · — |
+| **OFVFusion** | 2026 · Pattern Recognition | OFVFusion: Optical flow-guided saliency learning for infrared and visible video fusion | 视频融合 / 光流引导 / 时序一致性 | [Paper](https://doi.org/10.1016/j.patcog.2026.114678) · — |
 
 <a id="assessment"></a>
 ## 融合质量评价
