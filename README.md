@@ -4,7 +4,7 @@
 
 A collection of image fusion papers and code: infrared and visible image fusion, multimodal medical image fusion, multi-focus fusion, multi-exposure fusion, remote sensing, and video fusion.
 
-**79 篇论文 · 更新于 2026-10-09**
+**81 篇论文 · 更新于 2026-10-09**
 
 按下方任务目录查找论文与代码，数据集索引见文末。
 
@@ -14,7 +14,7 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 
 | 任务 | 论文数 | 入口 |
 | :-- | --: | :-- |
-| 红外与可见光 | 53 | [查看](#ivif) |
+| 红外与可见光 | 55 | [查看](#ivif) |
 | 医学图像 | 16 | [查看](#medical) |
 | 通用融合 | 23 | [查看](#general) |
 | 多聚焦 | 9 | [查看](#focus) |
@@ -82,8 +82,10 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | **IFCNN** | 2020 · Information Fusion | IFCNN: A general image fusion framework based on convolutional neural network | CNN / 通用融合 | [Paper](https://doi.org/10.1016/j.inffus.2019.07.011) · [Code](https://github.com/uzeful/IFCNN) |
 | **FusionDN** | 2020 · AAAI | FusionDN: A Unified Densely Connected Network for Image Fusion | DenseNet / 通用无监督融合 | [Paper](https://doi.org/10.1609/aaai.v34i07.6936) · — |
 | **DIDFuse** | 2020 · IJCAI | DIDFuse: Deep Image Decomposition for Infrared and Visible Image Fusion | 特征分解 / 自编码器 | [Paper](https://www.ijcai.org/Proceedings/2020/135) · [Code](https://github.com/Zhaozixiang1228/MMIF-DIDFuse) |
+| **NestFuse** | 2020 · TIM | NestFuse: An Infrared and Visible Image Fusion Architecture Based on Nest Connection and Spatial/Channel Attention Models | 自编码器 / 多尺度注意力 | [Paper](https://doi.org/10.1109/TIM.2020.3005230) · [Code](https://github.com/hli1221/imagefusion-nestfuse) |
 | **DenseFuse** | 2019 · TIP | DenseFuse: A Fusion Approach to Infrared and Visible Images | CNN / 自编码器 | [Paper](https://ieeexplore.ieee.org/document/8580578) · [Code](https://github.com/hli1221/imagefusion_densefuse) |
 | **FusionGAN** | 2019 · Information Fusion | FusionGAN: A Generative Adversarial Network for Infrared and Visible Image Fusion | GAN | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253518301143) · [Code](https://github.com/jiayi-ma/FusionGAN) |
+| **DDcGAN** | 2019 · IJCAI | Learning a Generative Model for Fusing Infrared and Visible Images via Conditional Generative Adversarial Network with Dual Discriminators | GAN / 双判别器 | [Paper](https://www.ijcai.org/proceedings/2019/549) · — |
 
 <a id="medical"></a>
 ## 医学图像
@@ -224,7 +226,7 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 
 ## 收录与贡献
 
-重点收录 CVPR、ICCV、ECCV、NeurIPS、ICML、AAAI、MICCAI、ACM MM、IJCAI，以及 TPAMI、TIP、IJCV、TMM、TCSVT、Information Fusion、Pattern Recognition、TGRS 的相关论文；少量重要代表作可作为期刊范围例外收录。
+重点收录 CVPR、ICCV、ECCV、NeurIPS、ICML、AAAI、MICCAI、ACM MM、IJCAI，以及 TPAMI、TIP、IJCV、TMM、TCSVT、Information Fusion、Pattern Recognition、TGRS 的相关论文；TIM 等期刊的少量重要代表作作为例外；少量重要代表作可作为期刊范围例外收录。
 
 欢迎通过 Issue 或 PR 补充遗漏论文、修正分类或更新代码链接。请附上论文标题、发表渠道、年份和原文或作者代码链接。
 
