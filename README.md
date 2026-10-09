@@ -4,7 +4,7 @@
 
 A collection of image fusion papers and code, focusing on publications since 2024: infrared and visible image fusion, multimodal medical image fusion, multi-focus fusion, multi-exposure fusion, remote sensing, and video fusion.
 
-**90 篇论文 · 重点更新 2024 年以来的研究**
+**95 篇论文 · 重点更新 2024 年以来的研究**
 
 按下方任务目录查找论文与代码，数据集索引见文末。
 
@@ -14,11 +14,11 @@ A collection of image fusion papers and code, focusing on publications since 202
 
 | 任务 | 论文数 | 入口 |
 | :-- | --: | :-- |
-| 红外与可见光 | 60 | [查看](#ivif) |
-| 医学图像 | 15 | [查看](#medical) |
-| 通用融合 | 23 | [查看](#general) |
-| 多聚焦 | 7 | [查看](#focus) |
-| 多曝光 | 8 | [查看](#exposure) |
+| 红外与可见光 | 61 | [查看](#ivif) |
+| 医学图像 | 20 | [查看](#medical) |
+| 通用融合 | 24 | [查看](#general) |
+| 多聚焦 | 8 | [查看](#focus) |
+| 多曝光 | 9 | [查看](#exposure) |
 | 遥感与高光谱 | 2 | [查看](#remote) |
 | 视频融合 | 1 | [查看](#video) |
 | 融合质量评价 | 2 | [查看](#assessment) |
@@ -48,6 +48,7 @@ A collection of image fusion papers and code, focusing on publications since 202
 | **MdaIF** | 2026 · AAAI | MdaIF: Robust One-Stop Multi-Degradation-Aware Image Fusion with Language-Driven Semantics | 多退化 / 语言语义 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37548) · — |
 | **Hybrid Space Model** | 2026 · AAAI | A Hybrid Space Model for Misaligned Multi-modality Image Fusion | 错位融合 / 欧氏双曲空间 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38078) · — |
 | **Dynamic Inertia Inhibition** | 2026 · AAAI | Revisiting Network Inertia: Dynamic Inertia Inhibition Coupled Multidimensional Periodicity for Infrared and Visible Image Fusion | 动态惯性抑制 / 多维周期建模 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37309) · — |
+| **SigFusion** | 2026 · AAAI | SigFusion: Unified Signal-Level Self-Supervised Learning Paradigm for Image Fusion | 通用融合 / 信号级自监督 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38009) · — |
 | **C2RF** | 2025 · IJCV | C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning | 配准 | [Paper](https://doi.org/10.1007/s11263-025-02427-1) · [Code](https://github.com/QinglongYan-hub/C2RF) |
 | **ControlFusion** | 2025 · NeurIPS | ControlFusion: A Controllable Image Fusion Framework with Language-Vision Degradation Prompts | 文本引导 / 可控融合 / 退化鲁棒 | [Paper](https://arxiv.org/abs/2503.23356) · [Code](https://github.com/Linfeng-Tang/ControlFusion) |
 | **DCEvo** | 2025 · CVPR | DCEvo: Discriminative Cross-dimensional Evolutionary Learning for Infrared and Visible Image Fusion | 任务驱动 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_DCEvo_Discriminative_Cross-Dimensional_Evolutionary_Learning_for_Infrared_and_Visible_Image_CVPR_2025_paper.html) · [Code](https://github.com/Beate-Suy-Zhang/DCEvo) |
@@ -98,6 +99,8 @@ A collection of image fusion papers and code, focusing on publications since 202
 | 方法 | 年份 · 发表 | 论文标题 | 技术 / 问题 | 论文 / 代码 |
 | :-- | :-- | :-- | :-- | :-- |
 | **Mask-DiFuser** | 2026 · TPAMI | Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion | 扩散 | [Paper](https://ieeexplore.ieee.org/document/11162636) · [Code](https://github.com/Linfeng-Tang/Mask-DiFuser) |
+| **SigFusion** | 2026 · AAAI | SigFusion: Unified Signal-Level Self-Supervised Learning Paradigm for Image Fusion | 通用融合 / 信号级自监督 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38009) · — |
+| **M²-CoFS** | 2026 · AAAI | Breaking Task Boundaries: A Unified Model for 3D Medical Image Fusion and Segmentation Guided by Manifold Perspective | 3D医学融合 / 分割协同 / 流形 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38008) · — |
 | **AU-Net** | 2025 · TIP | AU-Net: Adaptive Unified Network for Joint Multi-Modal Image Registration and Fusion | 配准 | [Paper](https://doi.org/10.1109/TIP.2025.3586507) · [Code](https://github.com/luming1314/AU-Net) |
 | **BSAFusion** | 2025 · AAAI | BSAFusion: A Bidirectional Stepwise Feature Alignment Network for Unaligned Medical Image Fusion | 配准 | [Paper](https://doi.org/10.1609/aaai.v39i5.32499) · [Code](https://github.com/slrl123/BSAFusion) |
 | **C2RF** | 2025 · IJCV | C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning | 配准 | [Paper](https://doi.org/10.1007/s11263-025-02427-1) · [Code](https://github.com/QinglongYan-hub/C2RF) |
@@ -105,9 +108,12 @@ A collection of image fusion papers and code, focusing on publications since 202
 | **GIFNet** | 2025 · CVPR | One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion | 通用融合 / 联合训练 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_One_Model_for_ALL_Low-Level_Task_Interaction_Is_a_Key_CVPR_2025_paper.html) · [Code](https://github.com/AWCXV/GIFNet) |
 | **MMIF-INet** | 2025 · Information Fusion | MMIF-INet: Multimodal medical image fusion by invertible network | 可逆网络 / 医学融合 | [Paper](https://doi.org/10.1016/j.inffus.2024.102666) · [Code](https://github.com/HeDan-11/MMIF-INet) |
 | **UniFuse** | 2025 · ICCV | UniFuse: A Unified All-in-One Framework for Multi-Modal Medical Image Fusion Under Diverse Degradations and Misalignments | 配准 / 退化鲁棒 / Mamba | [Paper](https://arxiv.org/abs/2506.22736) · [Code](https://github.com/slrl123/UniFuse) |
+| **BiMSRec** | 2025 · MICCAI | BiMSRec: A Progressive Image Reconstruction Framework for Medical Image Fusion Guided by Multi-Scale Deformation Fields | 医学图像 / 多尺度形变场 / 配准 | [Paper](https://papers.miccai.org/miccai-2025/0096-Paper1799.html) · — |
+| **RIFNet** | 2025 · MICCAI | RIFNet: Bridging Modalities for Accurate and Detailed Ocular Disease Analysis | 眼底多模态 / 模态缺失 / 生成融合 | [Paper](https://papers.miccai.org/miccai-2025/0785-Paper1554.html) · — |
 | **EMMA** | 2024 · CVPR | Equivariant Multi-Modality Image Fusion | 等变性 / 自监督 | — · [Code](https://github.com/Zhaozixiang1228/MMIF-EMMA) |
 | **TFS-Diff** | 2024 · MICCAI | Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model | 扩散 / 三模态 / 超分辨率 | [Paper](https://papers.miccai.org/miccai-2024/703-Paper3901.html) · [Code](https://github.com/XylonXu01/TFS-Diff) |
 | **DRMF** | 2024 · ACM MM | DRMF: Degradation-Robust Multi-Modal Image Fusion via Composable Diffusion Prior | 扩散 / 退化鲁棒 | [Paper](https://doi.org/10.1145/3664647.3681064) · [Code](https://github.com/Linfeng-Tang/DRMF) |
+| **RMR-Fusion** | 2024 · AAAI | A Robust Mutual-Reinforcing Framework for 3D Multi-Modal Medical Image Fusion Based on Visual-Semantic Consistency | 3D医学融合 / 分割协同 / 鲁棒性 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28536) · [Code](https://github.com/HaoZhang1018/RMR-Fusion) |
 | **CDDFuse** | 2023 · CVPR | CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion. | 特征分解 / 相关性 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) · [Code](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) |
 | **DDFM** | 2023 · ICCV | DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion | 扩散 / 无监督 | [Paper](https://arxiv.org/abs/2303.06840) · [Code](https://github.com/Zhaozixiang1228/MMIF-DDFM) |
 | **U2Fusion** | 2022 · TPAMI | U2Fusion: A Unified Unsupervised Image Fusion Network | 通用融合 / 无监督 | [Paper](https://doi.org/10.1109/TPAMI.2020.3012548) · [Code](https://github.com/hanna-xu/U2Fusion) |
@@ -124,6 +130,7 @@ A collection of image fusion papers and code, focusing on publications since 202
 | **Mask-DiFuser** | 2026 · TPAMI | Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion | 扩散 | [Paper](https://ieeexplore.ieee.org/document/11162636) · [Code](https://github.com/Linfeng-Tang/Mask-DiFuser) |
 | **UniFusion** | 2026 · CVPR | UniFusion: A Unified Image Fusion Framework with Robust Representation and Source-Aware Preservation | 通用融合 / 表示学习 | [Paper](https://arxiv.org/abs/2603.14214) · [Code](https://github.com/dusongcheng/UniFusion) |
 | **Degradation-Robust Fusion** | 2026 · CVPR | Degradation-Robust Fusion: An Efficient Degradation-Aware Diffusion Framework for Multimodal Image Fusion in Arbitrary Degradation Scenarios | 扩散 / 多退化鲁棒 | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shi_Degradation-Robust_Fusion_An_Efficient_Degradation-Aware_Diffusion_Framework_for_Multimodal_Image_CVPR_2026_paper.html) · — |
+| **SigFusion** | 2026 · AAAI | SigFusion: Unified Signal-Level Self-Supervised Learning Paradigm for Image Fusion | 通用融合 / 信号级自监督 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38009) · — |
 | **FS-Diff** | 2025 · Information Fusion | FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution. | 扩散 / 超分辨率 / 语义先验 | — · [Code](https://github.com/XylonXu01/FS-Diff) |
 | **Fusionbooster** | 2025 · IJCV | Fusionbooster: A unified image fusion boosting paradigm | 通用融合 | [Paper](https://arxiv.org/pdf/2305.05970) · [Code](https://github.com/AWCXV/FusionBooster) |
 | **FusionINV** | 2025 · TIP | FusionINV: A Diffusion-Based Approach for Multimodal Image Fusion | 扩散 | [Paper](https://doi.org/10.1109/TIP.2025.3593775) · [Code](https://github.com/erfect2020/FusionINV) |
@@ -147,6 +154,7 @@ A collection of image fusion papers and code, focusing on publications since 202
 
 | 方法 | 年份 · 发表 | 论文标题 | 技术 / 问题 | 论文 / 代码 |
 | :-- | :-- | :-- | :-- | :-- |
+| **SigFusion** | 2026 · AAAI | SigFusion: Unified Signal-Level Self-Supervised Learning Paradigm for Image Fusion | 通用融合 / 信号级自监督 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38009) · — |
 | **CCSR-Net-Fusion** | 2025 · Information Fusion | Unfolding Coupled Convolutional Sparse Representation for Multi-Focus Image Fusion | 清晰度 / 多聚焦 | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1566253525000478) · [Code](https://github.com/yuliu316316/CCSR-Net-Fusion) |
 | **DMANet** | 2025 · AAAI | Multi-Focus Image Fusion via Explicit Defocus Blur Modelling | 清晰度 / 多聚焦 | [Paper](https://doi.org/10.1609/aaai.v39i6.32714) · [Code](https://github.com/Tangzitao/DMANet) |
 | **GIFNet** | 2025 · CVPR | One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion | 通用融合 / 联合训练 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_One_Model_for_ALL_Low-Level_Task_Interaction_Is_a_Key_CVPR_2025_paper.html) · [Code](https://github.com/AWCXV/GIFNet) |
@@ -160,6 +168,7 @@ A collection of image fusion papers and code, focusing on publications since 202
 
 | 方法 | 年份 · 发表 | 论文标题 | 技术 / 问题 | 论文 / 代码 |
 | :-- | :-- | :-- | :-- | :-- |
+| **SigFusion** | 2026 · AAAI | SigFusion: Unified Signal-Level Self-Supervised Learning Paradigm for Image Fusion | 通用融合 / 信号级自监督 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38009) · — |
 | **GIFNet** | 2025 · CVPR | One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion | 通用融合 / 联合训练 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_One_Model_for_ALL_Low-Level_Task_Interaction_Is_a_Key_CVPR_2025_paper.html) · [Code](https://github.com/AWCXV/GIFNet) |
 | **MMAE** | 2025 · Pattern Recognition | MMAE: A universal image fusion method via mask attention mechanism | 通用融合 | [Paper](https://doi.org/10.1016/j.patcog.2024.111041) · [Code](https://github.com/xiangxiang-wang/MMAE) |
 | **TITA** | 2025 · ICCV | Balancing task-invariant interaction and task-specific adaptation for unified image fusion | 通用融合 / 自适应 / 多任务优化 | [Paper](https://arxiv.org/pdf/2504.05164) · [Code](https://github.com/huxingyuabc/TITA) |
