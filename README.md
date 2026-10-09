@@ -4,7 +4,7 @@
 
 A collection of image fusion papers and code, focusing on publications since 2024: infrared and visible image fusion, multimodal medical image fusion, multi-focus fusion, multi-exposure fusion, remote sensing, and video fusion.
 
-**103 篇论文 · 重点更新 2024 年以来的研究**
+**110 篇论文 · 重点更新 2024 年以来的研究**
 
 按下方任务目录查找论文与代码，数据集索引见文末。
 
@@ -20,7 +20,7 @@ A collection of image fusion papers and code, focusing on publications since 202
 | 多聚焦 | 8 | [查看](#focus) |
 | 多曝光 | 11 | [查看](#exposure) |
 | 遥感与高光谱 | 6 | [查看](#remote) |
-| 视频融合 | 3 | [查看](#video) |
+| 视频融合 | 10 | [查看](#video) |
 | 融合质量评价 | 2 | [查看](#assessment) |
 | 相关工作（非双源像素融合） | 3 | [查看](#related) |
 
@@ -198,8 +198,15 @@ A collection of image fusion papers and code, focusing on publications since 202
 | 方法 | 年份 · 发表 | 论文标题 | 技术 / 问题 | 论文 / 代码 |
 | :-- | :-- | :-- | :-- | :-- |
 | **VideoFusion** | 2026 · CVPR | VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion | 时序一致性 / 恢复 | [Paper](https://arxiv.org/abs/2503.23359) · [Code](https://github.com/Linfeng-Tang/VideoFusion) |
-| **Streaming Diffusion Video Fusion** | 2026 · CVPR | Streaming Diffusion Model for Fast Infrared and Visible Video Fusion | 红外可见光视频 / 流式扩散 | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Streaming_Diffusion_Model_for_Fast_Infrared_and_Visible_Video_Fusion_CVPR_2026_paper.html) · — |
-| **OFVFusion** | 2026 · Pattern Recognition | OFVFusion: Optical flow-guided saliency learning for infrared and visible video fusion | 视频融合 / 光流引导 / 时序一致性 | [Paper](https://doi.org/10.1016/j.patcog.2026.114678) · — |
+| **SDMFusion** | 2026 · CVPR | Streaming Diffusion Model for Fast Infrared and Visible Video Fusion | 红外可见光视频 / 流式扩散 | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Streaming_Diffusion_Model_for_Fast_Infrared_and_Visible_Video_Fusion_CVPR_2026_paper.html) · [Code](https://github.com/DandanYoung/SDMFusion) |
+| **OFVFusion** | 2026 · Pattern Recognition | OFVFusion: Optical flow-guided saliency learning for infrared and visible video fusion | 视频融合 / 光流引导 / 时序一致性 | [Paper](https://doi.org/10.1016/j.patcog.2026.114678) · [Code](https://github.com/Sunny-OpenLab/OFVFusion) |
+| **DRFusion** | 2026 · ICML | DRFusion: Drift-Resilient Temporally Consistent Infrared–Visible Video Fusion | 视频扩散 / 历史引导 / 抑制时序漂移 | [Paper](https://proceedings.mlr.press/v306/li26hx.html) · [Code](https://github.com/xhhaoyan/DRFusion) |
+| **CMVF** | 2026 · Information Fusion | CMVF: Cross-modal unregistered video fusion via spatio-temporal consistency | 未配准视频 / 光流 / 联合配准融合 | [Paper](https://doi.org/10.1016/j.inffus.2026.104212) · [Code](https://github.com/jianfeng0369/CMVF) |
+| **Seq-IF** | 2026 · TCSVT | Seq-IF: Sequentially Consistent Infrared-Visible Video Fusion under Time-Varying Illumination for Perception Enhancement | 时变光照 / 静动态分离 / 时序稳定 | [Paper](https://doi.org/10.1109/TCSVT.2026.3669445) · — |
+| **ELVID** | 2026 · TIP | Uncertainty-Guided Spatiotemporal Consistency Fusion Network for Infrared-Visible Video Fusion Under Extremely Low-Light Conditions | 极低照度 / 不确定性 / 时空一致性 | [Paper](https://doi.org/10.1109/TIP.2026.3719477) · [Code](https://github.com/Zhaocheng1/ELVID) |
+| **TemCoCo** | 2025 · ICCV | TemCoCo: Temporally Consistent Multi-modal Video Fusion with Visual-Semantic Collaboration | 时序损失 / 视觉语义协同 / 视频退化 | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Gong_TemCoCo_Temporally_Consistent_Multi-modal_Video_Fusion_with_Visual-Semantic_Collaboration_ICCV_2025_paper.html) · [Code](https://github.com/Meiqi-Gong/TemCoCo) |
+| **UniVF** | 2025 · NeurIPS | A Unified Solution to Video Fusion: From Multi-Frame Learning to Benchmarking | 多帧学习 / 光流对齐 / VF-Bench | [Paper](https://vfbench.github.io/) · [Code](https://github.com/Zhaozixiang1228/VF-Bench) |
+| **RCVS** | 2024 · TMM | RCVS: A Unified Registration and Fusion Framework for Video Streams | 视频流 / 跨模态配准 / 联合融合 | [Paper](https://doi.org/10.1109/TMM.2024.3443673) · — |
 
 <a id="assessment"></a>
 ## 融合质量评价
@@ -241,6 +248,7 @@ A collection of image fusion papers and code, focusing on publications since 202
 | 多曝光 | SICE | 2018 | 多曝光序列与融合评价 | [Project](https://github.com/csjcai/SICE) |
 | 多曝光 | MEFB | 2021 | 多曝光融合方法比较与评测基准 | [Benchmark](https://github.com/xingchenzhang/MEFB) |
 | 跨任务 | VLF | 2024 | 基于既有融合数据集的视觉语言描述扩展，不是新采集图像对 | [Dataset](https://github.com/Zhaozixiang1228/IF-FILM) |
+| 视频融合 | VidLLVIP | 2026 | 低照度红外可见光配对视频；配准及预处理资源见作者页面 | [Dataset](https://github.com/jianfeng0369/VidLLVIP) |
 | 视频融合 | M3SVD | 2025 | 220 对同步红外可见光视频；目前公开测试集，完整数据需联系作者 | [Dataset](https://github.com/Linfeng-Tang/M3SVD) |
 | 视频融合 | VF-Bench | 2025 | 跨红外可见光、多曝光、多聚焦、医学的视频融合评测集合 | [Benchmark](https://github.com/Zhaozixiang1228/VF-Bench) |
 
