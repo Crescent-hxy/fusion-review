@@ -1425,6 +1425,34 @@
     "note": ""
   },
   {
+    "id": "drmf",
+    "name": "DRMF",
+    "title": "DRMF: Degradation-Robust Multi-Modal Image Fusion via Composable Diffusion Prior",
+    "year": 2024,
+    "venue": "ACM MM",
+    "repo": "Linfeng-Tang/DRMF",
+    "paper": "https://doi.org/10.1145/3664647.3681064",
+    "code": "https://github.com/Linfeng-Tang/DRMF",
+    "tasks": [
+      "ivif",
+      "medical"
+    ],
+    "tags": [
+      "扩散",
+      "退化鲁棒"
+    ],
+    "summary": "结合单模态扩散先验处理退化输入与多模态图像融合。",
+    "publication_status": "正式发表",
+    "verification": "正式会议论文信息与作者代码核对",
+    "sources": [
+      "https://research.cuhk.edu.hk/en/publications/drmf-degradation-robust-multi-modal-image-fusion-via-composable-d/",
+      "https://github.com/Linfeng-Tang/DRMF"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "作者开源实现已定位，未运行",
+    "note": ""
+  },
+  {
     "id": "emma",
     "name": "EMMA",
     "title": "Equivariant Multi-Modality Image Fusion",
@@ -1781,6 +1809,37 @@
     "checked_at": "2026-10-09",
     "code_status": "仓库已定位，未运行",
     "note": ""
+  },
+  {
+    "id": "swinfusion",
+    "name": "SwinFusion",
+    "title": "SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer",
+    "year": 2022,
+    "venue": "IEEE/CAA JAS",
+    "repo": "Linfeng-Tang/SwinFusion",
+    "paper": "https://doi.org/10.1109/JAS.2022.105686",
+    "code": "https://github.com/Linfeng-Tang/SwinFusion",
+    "tasks": [
+      "general",
+      "ivif",
+      "medical",
+      "focus",
+      "exposure"
+    ],
+    "tags": [
+      "Transformer",
+      "通用融合"
+    ],
+    "summary": "通过移位窗口自注意力与跨注意力建模图像融合中的跨域长距离依赖。",
+    "publication_status": "正式发表",
+    "verification": "IEEE 出版信息与作者代码核对",
+    "sources": [
+      "https://ieeexplore.ieee.org/document/9812535",
+      "https://github.com/Linfeng-Tang/SwinFusion"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "作者开源实现已定位，未运行",
+    "note": "重要经典代表作；IEEE/CAA JAS 为范围外少量代表性例外。"
   },
   {
     "id": "tardal",
