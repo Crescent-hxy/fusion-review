@@ -176,6 +176,31 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | :-- | :-- | :-- | :-- | :-- |
 | **MagicFuse** | 2026 · CVPR | MagicFuse: Single Image Fusion for Visual and Semantic Reinforcement | 模态缺失 / 知识迁移 | [Paper](https://arxiv.org/abs/2602.01760) · [Code](https://github.com/zhayanping/MagicFuse) |
 | **IM-Fuse** | 2025 · MICCAI | IM-Fuse: Mamba-based Fusion Block for Brain Tumor Segmentation with Incomplete Modalities | Mamba / 模态缺失 / 分割 | [Paper](https://papers.miccai.org/miccai-2025/0437-Paper0747.html) · [Code](https://github.com/AImageLab-zip/IM-Fuse) |
+## 数据集 / Datasets
+
+按任务整理常用及近年发布的数据集、评测基准。优先链接原作者或官方维护页面；不同数据集的配准、训练/测试划分及标注条件并不一致，使用时请查阅原始说明。
+
+| 任务 | 数据集 | 年份 | 类型 / 特点 | 官方入口 |
+| :-- | :-- | :-- | :-- | :-- |
+| 红外与可见光 | TNO | — | 经典红外/可见光场景 | [Dataset](https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029) |
+| 红外与可见光 | RoadScene | 2020 | 道路场景图像对 | [Dataset](https://github.com/hanna-xu/RoadScene) |
+| 红外与可见光 | MSRS | 2022 | 多场景日夜图像对 | [Dataset](https://github.com/Linfeng-Tang/MSRS) |
+| 红外与可见光 | M3FD | 2022 | 多场景，含目标检测标注 | [Dataset](https://github.com/JinyuanLiu-CV/TarDAL) |
+| 红外与可见光 | LLVIP | 2021 | 低照度可见光与红外、行人标注 | [Dataset](https://bupt-ai-cz.github.io/LLVIP/) |
+| 红外与可见光 | FMB | 2023 | 融合与语义分割基准 | [Dataset](https://github.com/JinyuanLiu-CV/SegMiF) |
+| 红外与可见光 | MSIV | 2025 | 7,000 对、多场景红外/可见光数据 | [Dataset](https://github.com/Yzhijia/Multi-Scenary-Infrared-and-Visible-images-dataset) |
+| 红外与可见光 | AWMM-100K | — | 恶劣天气多模态数据；开放内容与划分以项目页为准 | [Project](https://ixilai.github.io/AWMM-100K/) |
+| 医学图像 | Whole Brain Atlas (Harvard) | — | 脑部多模态图像资源；使用时核对对应切片 | [Dataset](https://www.med.harvard.edu/AANLIB/home.html) |
+| 医学图像 | IXI | — | T1/T2/PD 等脑 MRI；原始数据并非直接配准的融合测试对 | [Dataset](https://brain-development.org/ixi-dataset/) |
+| 医学图像 | BraTS | — | 多序列脑肿瘤 MRI；原任务为分割，非专用融合基准 | [Dataset](https://www.med.upenn.edu/cbica/brats/) |
+| 多聚焦 | Lytro | — | 经典多焦点摄影数据 | [Collection](https://github.com/xingchenzhang/MFIFB) |
+| 多聚焦 | MFIFB | 2020 | 多聚焦方法比较与评测基准 | [Benchmark](https://github.com/xingchenzhang/MFIFB) |
+| 多聚焦 | LMIF | 2025 | 229 对手机采集多焦点图像；含原始及预处理版本 | [Dataset](https://github.com/cvmdsp/LMIF) |
+| 多曝光 | SICE | 2018 | 多曝光序列与融合评价 | [Project](https://github.com/csjcai/SICE) |
+| 多曝光 | MEFB | 2020 | 多曝光融合方法比较与评测基准 | [Benchmark](https://github.com/xingchenzhang/MEFB) |
+| 跨任务 | VLF | 2024 | 基于既有融合数据集的视觉语言描述扩展，不是新采集图像对 | [Dataset](https://github.com/Zhaozixiang1228/IF-FILM) |
+| 视频融合 | VF-Bench | 2025 | 跨红外可见光、多曝光、多聚焦、医学的视频融合评测集合 | [Benchmark](https://github.com/Zhaozixiang1228/VF-Bench) |
+
 ## 收录与贡献
 
 重点收录 CVPR、ICCV、ECCV、NeurIPS、ICML、AAAI、MICCAI、ACM MM，以及 TPAMI、TIP、IJCV、TMM、TCSVT、Information Fusion、Pattern Recognition、TGRS 的相关论文。
@@ -183,3 +208,5 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 欢迎通过 Issue 或 PR 补充遗漏论文、修正分类或更新代码链接。请附上论文标题、发表渠道、年份和原文或作者代码链接。
 
 数据保存在 [data/papers.json](data/papers.json)。修改后运行 `python scripts/build.py` 生成表格与页面，再运行 `python scripts/validate.py` 检查。原有收藏保留在 [archive](archive/README-original.md)。
+
+Acknowledgements: Thanks to the maintainers of [IVIF_ZOO](https://github.com/RollingPlain/IVIF_ZOO) for their work on image fusion literature and datasets.
