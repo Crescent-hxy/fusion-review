@@ -6,9 +6,9 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 
 **74 篇论文 · 更新于 2026-10-09**
 
-[搜索与筛选](index.html) · [下载 CSV](data/papers.csv) · [收录范围](docs/methodology.md)
+按下方任务目录查找论文与代码，数据集索引见文末。
 
-下载仓库后，用浏览器打开 `index.html`，可按关键词、任务、年份和技术标签筛选，并导出结果。
+可使用 GitHub 页面搜索（Ctrl+F）查找方法、年份或关键词。
 
 ## 目录
 
@@ -215,7 +215,5 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 重点收录 CVPR、ICCV、ECCV、NeurIPS、ICML、AAAI、MICCAI、ACM MM，以及 TPAMI、TIP、IJCV、TMM、TCSVT、Information Fusion、Pattern Recognition、TGRS 的相关论文；少量重要代表作可作为期刊范围例外收录。
 
 欢迎通过 Issue 或 PR 补充遗漏论文、修正分类或更新代码链接。请附上论文标题、发表渠道、年份和原文或作者代码链接。
-
-数据保存在 [data/papers.json](data/papers.json)。修改后运行 `python scripts/build.py` 生成表格与页面，再运行 `python scripts/validate.py` 检查。原有收藏保留在 [archive](archive/README-original.md)。
 
 Acknowledgements: Thanks to the maintainers of [IVIF_ZOO](https://github.com/RollingPlain/IVIF_ZOO) for their work on image fusion literature and datasets.
