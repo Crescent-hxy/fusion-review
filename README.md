@@ -188,8 +188,9 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | 红外与可见光 | M3FD | 2022 | 多场景，含目标检测标注 | [Dataset](https://github.com/JinyuanLiu-CV/TarDAL) |
 | 红外与可见光 | LLVIP | 2021 | 低照度可见光与红外、行人标注 | [Dataset](https://bupt-ai-cz.github.io/LLVIP/) |
 | 红外与可见光 | FMB | 2023 | 融合与语义分割基准 | [Dataset](https://github.com/JinyuanLiu-CV/SegMiF) |
-| 红外与可见光 | MSIV | 2025 | 7,000 对、多场景红外/可见光数据 | [Dataset](https://github.com/Yzhijia/Multi-Scenary-Infrared-and-Visible-images-dataset) |
-| 红外与可见光 | AWMM-100K | — | 恶劣天气多模态数据；开放内容与划分以项目页为准 | [Project](https://ixilai.github.io/AWMM-100K/) |
+| 红外与可见光 | MSIV | 2025 | 7,000 对配准图像，多场景；附可选检测标注入口 | [Dataset](https://github.com/Yzhijia/Multi-Scenary-Infrared-and-Visible-images-dataset) |
+| 红外与可见光 | AWMM-100K | 2026 | 基于既有图像对的雨雾雪退化构建并含实拍数据；划分见官网 | [Project](https://ixilai.github.io/AWMM-100K/) |
+| 红外与可见光 | VIFB | 2020 | 经典红外可见光融合评测基准，21 对测试图像 | [Benchmark](https://github.com/xingchenzhang/VIFB) |
 | 医学图像 | Whole Brain Atlas (Harvard) | — | 脑部多模态图像资源；使用时核对对应切片 | [Dataset](https://www.med.harvard.edu/AANLIB/home.html) |
 | 医学图像 | IXI | — | T1/T2/PD 等脑 MRI；原始数据并非直接配准的融合测试对 | [Dataset](https://brain-development.org/ixi-dataset/) |
 | 医学图像 | BraTS | — | 多序列脑肿瘤 MRI；原任务为分割，非专用融合基准 | [Dataset](https://www.med.upenn.edu/cbica/brats/) |
@@ -197,8 +198,9 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | 多聚焦 | MFIFB | 2020 | 多聚焦方法比较与评测基准 | [Benchmark](https://github.com/xingchenzhang/MFIFB) |
 | 多聚焦 | LMIF | 2025 | 229 对手机采集多焦点图像；含原始及预处理版本 | [Dataset](https://github.com/cvmdsp/LMIF) |
 | 多曝光 | SICE | 2018 | 多曝光序列与融合评价 | [Project](https://github.com/csjcai/SICE) |
-| 多曝光 | MEFB | 2020 | 多曝光融合方法比较与评测基准 | [Benchmark](https://github.com/xingchenzhang/MEFB) |
+| 多曝光 | MEFB | 2021 | 多曝光融合方法比较与评测基准 | [Benchmark](https://github.com/xingchenzhang/MEFB) |
 | 跨任务 | VLF | 2024 | 基于既有融合数据集的视觉语言描述扩展，不是新采集图像对 | [Dataset](https://github.com/Zhaozixiang1228/IF-FILM) |
+| 视频融合 | M3SVD | 2025 | 220 对同步红外可见光视频；目前公开测试集，完整数据需联系作者 | [Dataset](https://github.com/Linfeng-Tang/M3SVD) |
 | 视频融合 | VF-Bench | 2025 | 跨红外可见光、多曝光、多聚焦、医学的视频融合评测集合 | [Benchmark](https://github.com/Zhaozixiang1228/VF-Bench) |
 
 ## 收录与贡献
