@@ -21,7 +21,7 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 
 **{len(PAPERS)} 篇论文 · 更新于 2026-10-09**
 
-[搜索与筛选](index.html) · [下载 CSV](data/papers.csv) · [收录范围](docs/methodology.md) · [更新记录](CHANGELOG.md)
+[搜索与筛选](index.html) · [下载 CSV](data/papers.csv) · [收录范围](docs/methodology.md)
 
 下载仓库后，用浏览器打开 `index.html`，可按关键词、任务、年份和技术标签筛选，并导出结果。
 
@@ -36,13 +36,17 @@ sections=[]
 for t,n in TASKS.items():sections.extend([f'<a id="{t}"></a>',f'## {n}','',table([p for p in PAPERS if t in p['tasks']]),''])
 end='''## 收录与贡献
 
-重点收录 CVPR、ICCV、ECCV、NeurIPS、ICML、AAAI、MICCAI、ACM MM，以及 TPAMI、TIP、IJCV、TMM、TCSVT、Information Fusion、Pattern Recognition、TGRS 的相关论文。
+重点收录 CVPR、ICCV、ECCV、NeurIPS、ICML、AAAI、MICCAI、ACM MM，以及 TPAMI、TIP、IJCV、TMM、TCSVT、Information Fusion、Pattern Recognition、TGRS 的相关论文；少量重要代表作可作为期刊范围例外收录。
 
 欢迎通过 Issue 或 PR 补充遗漏论文、修正分类或更新代码链接。请附上论文标题、发表渠道、年份和原文或作者代码链接。
 
 数据保存在 [data/papers.json](data/papers.json)。修改后运行 `python scripts/build.py` 生成表格与页面，再运行 `python scripts/validate.py` 检查。原有收藏保留在 [archive](archive/README-original.md)。
 '''
-(ROOT/'README.md').write_text(intro+'\n'+'\n'.join(sections)+end)
+existing=(ROOT/'README.md').read_text() if (ROOT/'README.md').exists() else ''
+dataset=existing.split('## 数据集 / Datasets',1)[1].split('## 收录与贡献',1)[0] if '## 数据集 / Datasets' in existing else ''
+thanks=existing.split('Acknowledgements:',1)[1].strip() if 'Acknowledgements:' in existing else ''
+append=('## 数据集 / Datasets'+dataset if dataset else '')+end+('\nAcknowledgements: '+thanks+'\n' if thanks else '')
+(ROOT/'README.md').write_text(intro+'\n'+'\n'.join(sections)+append)
 with (ROOT/'data/papers.csv').open('w',newline='',encoding='utf-8-sig') as f:
  w=csv.DictWriter(f,fieldnames=list(PAPERS[0]));w.writeheader()
  for p in PAPERS:w.writerow({k:'; '.join(v) if isinstance(v,list) else v for k,v in p.items()})
