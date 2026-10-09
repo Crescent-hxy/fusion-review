@@ -1,10 +1,10 @@
 # Image Fusion Review | 图像融合论文与代码
 
-图像融合论文与开源代码整理，涵盖红外与可见光、医学图像、多聚焦、多曝光、遥感和视频融合。按应用任务分类，并标注配准、任务驱动、扩散模型、文本控制等研究方向，方便查找论文和实现。
+2024 年以来的图像融合论文与开源代码整理，涵盖红外与可见光、医学图像、多聚焦、多曝光、遥感和视频融合。按应用任务分类，并标注配准、任务驱动、扩散模型、文本控制等研究方向，方便查找论文和实现。
 
-A collection of image fusion papers and code: infrared and visible image fusion, multimodal medical image fusion, multi-focus fusion, multi-exposure fusion, remote sensing, and video fusion.
+A collection of image fusion papers and code (2024–present): infrared and visible image fusion, multimodal medical image fusion, multi-focus fusion, multi-exposure fusion, remote sensing, and video fusion.
 
-**81 篇论文 · 更新于 2026-10-09**
+**62 篇论文（2024–2026） · 更新于 2026-10-09**
 
 按下方任务目录查找论文与代码，数据集索引见文末。
 
@@ -14,17 +14,17 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 
 | 任务 | 论文数 | 入口 |
 | :-- | --: | :-- |
-| 红外与可见光 | 55 | [查看](#ivif) |
-| 医学图像 | 16 | [查看](#medical) |
-| 通用融合 | 23 | [查看](#general) |
-| 多聚焦 | 9 | [查看](#focus) |
-| 多曝光 | 9 | [查看](#exposure) |
+| 红外与可见光 | 39 | [查看](#ivif) |
+| 医学图像 | 11 | [查看](#medical) |
+| 通用融合 | 16 | [查看](#general) |
+| 多聚焦 | 5 | [查看](#focus) |
+| 多曝光 | 3 | [查看](#exposure) |
 | 遥感与高光谱 | 1 | [查看](#remote) |
 | 视频融合 | 1 | [查看](#video) |
 | 融合质量评价 | 2 | [查看](#assessment) |
 | 相关工作（非双源像素融合） | 2 | [查看](#related) |
 
-各表按年份倒序排列。同一方法涉及多个任务时，会出现在对应表中。
+仅收录 2024 年以来正式发表的精选论文，各表按年份倒序排列。同一方法涉及多个任务时，会出现在对应表中。
 
 <a id="ivif"></a>
 ## 红外与可见光
@@ -70,22 +70,6 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | **ReFusion** | 2024 · IJCV | ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning | 元学习 / 可学习损失 / 重建学习 | [Paper](https://doi.org/10.1007/s11263-024-02256-8) · [Code](https://github.com/HaowenBai/ReFusion) |
 | **Text-IF** | 2024 · CVPR | Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion | 文本引导 / 可控融合 / 退化鲁棒 | [Paper](https://arxiv.org/abs/2403.16387) · [Code](https://github.com/Linfeng-Tang/Text-IF) |
 | **DRMF** | 2024 · ACM MM | DRMF: Degradation-Robust Multi-Modal Image Fusion via Composable Diffusion Prior | 扩散 / 退化鲁棒 | [Paper](https://doi.org/10.1145/3664647.3681064) · [Code](https://github.com/Linfeng-Tang/DRMF) |
-| **CDDFuse** | 2023 · CVPR | CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion. | 特征分解 / 相关性 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) · [Code](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) |
-| **DDFM** | 2023 · ICCV | DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion | 扩散 / 无监督 | [Paper](https://arxiv.org/abs/2303.06840) · [Code](https://github.com/Zhaozixiang1228/MMIF-DDFM) |
-| **SegMiF** | 2023 · ICCV | Multi-interactive Feature Learning and a Full-time Multi-modality Benchmark for Image Fusion and Segmentation | 任务驱动 / 分割 | [Paper](https://arxiv.org/abs/2308.02097) · [Code](https://github.com/JinyuanLiu-CV/SegMiF) |
-| **SeAFusion** | 2022 · Information Fusion | Image Fusion in the Loop of High-Level Vision Tasks: A Semantic-Aware Real-Time Infrared and Visible Image Fusion Network | 任务驱动 / 分割 | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253521002542) · [Code](https://github.com/Linfeng-Tang/SeAFusion) |
-| **TarDAL** | 2022 · CVPR | Target-Aware Dual Adversarial Learning and a Multi-Scenario Multi-Modality Benchmark to Fuse Infrared and Visible for Object Detection | 任务驱动 / 检测 / GAN | [Paper](https://arxiv.org/abs/2203.16220) · [Code](https://github.com/JinyuanLiu-CV/TarDAL) |
-| **U2Fusion** | 2022 · TPAMI | U2Fusion: A Unified Unsupervised Image Fusion Network | 通用融合 / 无监督 | [Paper](https://doi.org/10.1109/TPAMI.2020.3012548) · [Code](https://github.com/hanna-xu/U2Fusion) |
-| **SwinFusion** | 2022 · IEEE/CAA JAS | SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer | Transformer / 通用融合 | [Paper](https://doi.org/10.1109/JAS.2022.105686) · [Code](https://github.com/Linfeng-Tang/SwinFusion) |
-| **PIAFusion** | 2022 · Information Fusion | PIAFusion: A progressive infrared and visible image fusion network based on illumination aware | 光照感知 / 渐进融合 | [Paper](https://doi.org/10.1016/j.inffus.2022.03.007) · [Code](https://github.com/Linfeng-Tang/PIAFusion) |
-| **RFN-Nest** | 2021 · Information Fusion | RFN-Nest: An end-to-end residual fusion network for infrared and visible images | 残差融合 / 可学习融合策略 | [Paper](https://doi.org/10.1016/j.inffus.2021.02.023) · [Code](https://github.com/hli1221/imagefusion-rfn-nest) |
-| **IFCNN** | 2020 · Information Fusion | IFCNN: A general image fusion framework based on convolutional neural network | CNN / 通用融合 | [Paper](https://doi.org/10.1016/j.inffus.2019.07.011) · [Code](https://github.com/uzeful/IFCNN) |
-| **FusionDN** | 2020 · AAAI | FusionDN: A Unified Densely Connected Network for Image Fusion | DenseNet / 通用无监督融合 | [Paper](https://doi.org/10.1609/aaai.v34i07.6936) · — |
-| **DIDFuse** | 2020 · IJCAI | DIDFuse: Deep Image Decomposition for Infrared and Visible Image Fusion | 特征分解 / 自编码器 | [Paper](https://www.ijcai.org/Proceedings/2020/135) · [Code](https://github.com/Zhaozixiang1228/MMIF-DIDFuse) |
-| **NestFuse** | 2020 · TIM | NestFuse: An Infrared and Visible Image Fusion Architecture Based on Nest Connection and Spatial/Channel Attention Models | 自编码器 / 多尺度注意力 | [Paper](https://doi.org/10.1109/TIM.2020.3005230) · [Code](https://github.com/hli1221/imagefusion-nestfuse) |
-| **DenseFuse** | 2019 · TIP | DenseFuse: A Fusion Approach to Infrared and Visible Images | CNN / 自编码器 | [Paper](https://ieeexplore.ieee.org/document/8580578) · [Code](https://github.com/hli1221/imagefusion_densefuse) |
-| **FusionGAN** | 2019 · Information Fusion | FusionGAN: A Generative Adversarial Network for Infrared and Visible Image Fusion | GAN | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253518301143) · [Code](https://github.com/jiayi-ma/FusionGAN) |
-| **DDcGAN** | 2019 · IJCAI | Learning a Generative Model for Fusing Infrared and Visible Images via Conditional Generative Adversarial Network with Dual Discriminators | GAN / 双判别器 | [Paper](https://www.ijcai.org/proceedings/2019/549) · — |
 
 <a id="medical"></a>
 ## 医学图像
@@ -103,11 +87,6 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | **EMMA** | 2024 · CVPR | Equivariant Multi-Modality Image Fusion | 等变性 / 自监督 | — · [Code](https://github.com/Zhaozixiang1228/MMIF-EMMA) |
 | **TFS-Diff** | 2024 · MICCAI | Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model | 扩散 / 三模态 / 超分辨率 | [Paper](https://papers.miccai.org/miccai-2024/703-Paper3901.html) · [Code](https://github.com/XylonXu01/TFS-Diff) |
 | **DRMF** | 2024 · ACM MM | DRMF: Degradation-Robust Multi-Modal Image Fusion via Composable Diffusion Prior | 扩散 / 退化鲁棒 | [Paper](https://doi.org/10.1145/3664647.3681064) · [Code](https://github.com/Linfeng-Tang/DRMF) |
-| **CDDFuse** | 2023 · CVPR | CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion. | 特征分解 / 相关性 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) · [Code](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) |
-| **DDFM** | 2023 · ICCV | DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion | 扩散 / 无监督 | [Paper](https://arxiv.org/abs/2303.06840) · [Code](https://github.com/Zhaozixiang1228/MMIF-DDFM) |
-| **U2Fusion** | 2022 · TPAMI | U2Fusion: A Unified Unsupervised Image Fusion Network | 通用融合 / 无监督 | [Paper](https://doi.org/10.1109/TPAMI.2020.3012548) · [Code](https://github.com/hanna-xu/U2Fusion) |
-| **SwinFusion** | 2022 · IEEE/CAA JAS | SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer | Transformer / 通用融合 | [Paper](https://doi.org/10.1109/JAS.2022.105686) · [Code](https://github.com/Linfeng-Tang/SwinFusion) |
-| **FusionDN** | 2020 · AAAI | FusionDN: A Unified Densely Connected Network for Image Fusion | DenseNet / 通用无监督融合 | [Paper](https://doi.org/10.1609/aaai.v34i07.6936) · — |
 
 <a id="general"></a>
 ## 通用融合
@@ -130,13 +109,6 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | **ReFusion** | 2024 · IJCV | ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning | 元学习 / 可学习损失 / 重建学习 | [Paper](https://doi.org/10.1007/s11263-024-02256-8) · [Code](https://github.com/HaowenBai/ReFusion) |
 | **UAAFusion** | 2024 · TCSVT | Deep unfolding multi-modal image fusion network via attribution analysis | 深度展开 / 归因分析 | [Paper](https://arxiv.org/abs/2502.01467) · [Code](https://github.com/HaowenBai/UAAFusion) |
 | **VDMUFusion** | 2024 · TIP | VDMUFusion: A Versatile Diffusion Model-Based Unsupervised Framework for Image Fusion | 扩散 / 通用融合 | [Paper](https://ieeexplore.ieee.org/abstract/document/10794610) · [Code](https://github.com/yuliu316316/VDMUFusion) |
-| **CDDFuse** | 2023 · CVPR | CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion. | 特征分解 / 相关性 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) · [Code](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) |
-| **DDFM** | 2023 · ICCV | DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion | 扩散 / 无监督 | [Paper](https://arxiv.org/abs/2303.06840) · [Code](https://github.com/Zhaozixiang1228/MMIF-DDFM) |
-| **U2Fusion** | 2022 · TPAMI | U2Fusion: A Unified Unsupervised Image Fusion Network | 通用融合 / 无监督 | [Paper](https://doi.org/10.1109/TPAMI.2020.3012548) · [Code](https://github.com/hanna-xu/U2Fusion) |
-| **SwinFusion** | 2022 · IEEE/CAA JAS | SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer | Transformer / 通用融合 | [Paper](https://doi.org/10.1109/JAS.2022.105686) · [Code](https://github.com/Linfeng-Tang/SwinFusion) |
-| **IFCNN** | 2020 · Information Fusion | IFCNN: A general image fusion framework based on convolutional neural network | CNN / 通用融合 | [Paper](https://doi.org/10.1016/j.inffus.2019.07.011) · [Code](https://github.com/uzeful/IFCNN) |
-| **FusionDN** | 2020 · AAAI | FusionDN: A Unified Densely Connected Network for Image Fusion | DenseNet / 通用无监督融合 | [Paper](https://doi.org/10.1609/aaai.v34i07.6936) · — |
-| **GFF** | 2013 · TIP | Image Fusion With Guided Filtering | 传统方法 / 引导滤波 | [Paper](https://doi.org/10.1109/TIP.2013.2244222) · — |
 
 <a id="focus"></a>
 ## 多聚焦
@@ -148,10 +120,6 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | **GIFNet** | 2025 · CVPR | One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion | 通用融合 / 联合训练 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_One_Model_for_ALL_Low-Level_Task_Interaction_Is_a_Key_CVPR_2025_paper.html) · [Code](https://github.com/AWCXV/GIFNet) |
 | **MMAE** | 2025 · Pattern Recognition | MMAE: A universal image fusion method via mask attention mechanism | 通用融合 | [Paper](https://doi.org/10.1016/j.patcog.2024.111041) · [Code](https://github.com/xiangxiang-wang/MMAE) |
 | **TITA** | 2025 · ICCV | Balancing task-invariant interaction and task-specific adaptation for unified image fusion | 通用融合 / 自适应 / 多任务优化 | [Paper](https://arxiv.org/pdf/2504.05164) · [Code](https://github.com/huxingyuabc/TITA) |
-| **U2Fusion** | 2022 · TPAMI | U2Fusion: A Unified Unsupervised Image Fusion Network | 通用融合 / 无监督 | [Paper](https://doi.org/10.1109/TPAMI.2020.3012548) · [Code](https://github.com/hanna-xu/U2Fusion) |
-| **SwinFusion** | 2022 · IEEE/CAA JAS | SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer | Transformer / 通用融合 | [Paper](https://doi.org/10.1109/JAS.2022.105686) · [Code](https://github.com/Linfeng-Tang/SwinFusion) |
-| **IFCNN** | 2020 · Information Fusion | IFCNN: A general image fusion framework based on convolutional neural network | CNN / 通用融合 | [Paper](https://doi.org/10.1016/j.inffus.2019.07.011) · [Code](https://github.com/uzeful/IFCNN) |
-| **FusionDN** | 2020 · AAAI | FusionDN: A Unified Densely Connected Network for Image Fusion | DenseNet / 通用无监督融合 | [Paper](https://doi.org/10.1609/aaai.v34i07.6936) · — |
 
 <a id="exposure"></a>
 ## 多曝光
@@ -161,12 +129,6 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 | **GIFNet** | 2025 · CVPR | One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion | 通用融合 / 联合训练 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_One_Model_for_ALL_Low-Level_Task_Interaction_Is_a_Key_CVPR_2025_paper.html) · [Code](https://github.com/AWCXV/GIFNet) |
 | **MMAE** | 2025 · Pattern Recognition | MMAE: A universal image fusion method via mask attention mechanism | 通用融合 | [Paper](https://doi.org/10.1016/j.patcog.2024.111041) · [Code](https://github.com/xiangxiang-wang/MMAE) |
 | **TITA** | 2025 · ICCV | Balancing task-invariant interaction and task-specific adaptation for unified image fusion | 通用融合 / 自适应 / 多任务优化 | [Paper](https://arxiv.org/pdf/2504.05164) · [Code](https://github.com/huxingyuabc/TITA) |
-| **MEFLUT** | 2023 · ICCV | MEFLUT: Unsupervised 1D Lookup Tables for Multi-exposure Image Fusion | LUT / 轻量化 | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_MEFLUT_Unsupervised_1D_Lookup_Tables_for_Multi-exposure_Image_Fusion_ICCV_2023_paper.html) · [Code](https://github.com/Hedlen/MEFLUT) |
-| **U2Fusion** | 2022 · TPAMI | U2Fusion: A Unified Unsupervised Image Fusion Network | 通用融合 / 无监督 | [Paper](https://doi.org/10.1109/TPAMI.2020.3012548) · [Code](https://github.com/hanna-xu/U2Fusion) |
-| **SwinFusion** | 2022 · IEEE/CAA JAS | SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer | Transformer / 通用融合 | [Paper](https://doi.org/10.1109/JAS.2022.105686) · [Code](https://github.com/Linfeng-Tang/SwinFusion) |
-| **IFCNN** | 2020 · Information Fusion | IFCNN: A general image fusion framework based on convolutional neural network | CNN / 通用融合 | [Paper](https://doi.org/10.1016/j.inffus.2019.07.011) · [Code](https://github.com/uzeful/IFCNN) |
-| **FusionDN** | 2020 · AAAI | FusionDN: A Unified Densely Connected Network for Image Fusion | DenseNet / 通用无监督融合 | [Paper](https://doi.org/10.1609/aaai.v34i07.6936) · — |
-| **DeepFuse** | 2017 · ICCV | DeepFuse: A Deep Unsupervised Approach for Exposure Fusion With Extreme Exposure Image Pairs | CNN / 无监督 | [Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Prabhakar_DeepFuse_A_Deep_ICCV_2017_paper.html) · — |
 
 <a id="remote"></a>
 ## 遥感与高光谱
@@ -226,7 +188,7 @@ A collection of image fusion papers and code: infrared and visible image fusion,
 
 ## 收录与贡献
 
-重点收录 CVPR、ICCV、ECCV、NeurIPS、ICML、AAAI、MICCAI、ACM MM、IJCAI，以及 TPAMI、TIP、IJCV、TMM、TCSVT、Information Fusion、Pattern Recognition、TGRS 的相关论文；TIM 等期刊的少量重要代表作作为例外；少量重要代表作可作为期刊范围例外收录。
+论文以 2024 年及以后正式发表的工作为限。重点收录 CVPR、ICCV、ECCV、NeurIPS、ICML、AAAI、MICCAI、ACM MM、IJCAI，以及 TPAMI、TIP、IJCV、TMM、TCSVT、Information Fusion、Pattern Recognition、TGRS 的相关论文；TIM 等期刊的少量重要代表作作为例外；少量重要代表作可作为期刊范围例外收录。
 
 欢迎通过 Issue 或 PR 补充遗漏论文、修正分类或更新代码链接。请附上论文标题、发表渠道、年份和原文或作者代码链接。
 
