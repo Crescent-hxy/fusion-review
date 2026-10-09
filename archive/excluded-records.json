@@ -1,0 +1,657 @@
+[
+  {
+    "id": "flexid-fuse",
+    "name": "FlexiD-Fuse",
+    "title": "FlexiD-Fuse: Flexible number of inputs multi-modal medical image fusion based on diffusion model",
+    "year": 2026,
+    "venue": "ESWA",
+    "tasks": [
+      "medical"
+    ],
+    "tags": [
+      "扩散",
+      "可变输入"
+    ],
+    "paper": "https://doi.org/10.1016/j.eswa.2025.128895",
+    "code": "https://github.com/XylonXu01/FlexiD-Fuse",
+    "repo": "XylonXu01/FlexiD-Fuse",
+    "summary": "整合不同医学成像模态；阅读时核对组织结构、功能信息与颜色保真。",
+    "publication_status": "正式发表",
+    "verification": "作者出版信息已核对",
+    "sources": [
+      "https://github.com/XylonXu01/FlexiD-Fuse/blob/main/README.md",
+      "https://doi.org/10.1016/j.eswa.2025.128895"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "2025 DOI/在线年份与 2026 卷期年份不同；此处按作者提供的卷期引用。",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "flmmif",
+    "name": "FLMMIF",
+    "title": "FLMMIF: Privacy-Preserving Federated Multi-Modal Medical Image Fusion",
+    "year": 2026,
+    "venue": "Frontiers in Artificial Intelligence",
+    "repo": "",
+    "paper": "https://doi.org/10.3389/frai.2026.1857709",
+    "code": null,
+    "tasks": [
+      "medical"
+    ],
+    "tags": [
+      "联邦学习",
+      "LoRA"
+    ],
+    "summary": "研究跨客户端的共享融合能力与个性化适配；临床收益需独立验证。",
+    "publication_status": "正式发表",
+    "verification": "出版平台元数据已核对",
+    "sources": [
+      "https://doi.org/10.3389/frai.2026.1857709"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "未定位作者代码",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "freemmif",
+    "name": "FreeMMIF",
+    "title": "FreeMMIF: Interactive Multimodal Medical Image Fusion via Instruction-Aware Diffusion",
+    "year": 2026,
+    "venue": "Frontiers in Neurology",
+    "repo": "",
+    "paper": "https://doi.org/10.3389/fneur.2026.1802423",
+    "code": null,
+    "tasks": [
+      "medical"
+    ],
+    "tags": [
+      "文本引导",
+      "扩散",
+      "可控融合"
+    ],
+    "summary": "把指令映射为特征调制，控制不同模态的信息占比。",
+    "publication_status": "正式发表",
+    "verification": "出版平台元数据已核对",
+    "sources": [
+      "https://doi.org/10.3389/fneur.2026.1802423"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "未定位作者代码",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "hybridfusion",
+    "name": "HybridFusion",
+    "title": "Hybrid Fusion: One-Minute Efficient Training for Zero-Shot Cross-Domain Image Fusion",
+    "year": 2026,
+    "venue": "arXiv",
+    "repo": "Zirconium233/HybridFusion",
+    "paper": "https://arxiv.org/abs/2602.20851",
+    "code": "https://github.com/Zirconium233/HybridFusion",
+    "tasks": [
+      "general"
+    ],
+    "tags": [
+      "传统与深度混合",
+      "轻量化"
+    ],
+    "summary": "学习引导图并结合固定金字塔融合规则，适合考察信息来源忠实度。",
+    "publication_status": "预印本",
+    "verification": "预印本来源已核对",
+    "sources": [
+      "https://github.com/Zirconium233/HybridFusion/blob/master/README.md",
+      "https://arxiv.org/abs/2602.20851"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "标题中的训练时间是作者表述，未独立复现。",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "rcs-fusion",
+    "name": "RCS-Fusion",
+    "title": "Beyond Spatial-Domain Supervision: A Relation Constrained Space for Multi-Modal Image Fusion",
+    "year": 2026,
+    "venue": "arXiv",
+    "repo": "GMY628/RCS-Fusion",
+    "paper": "https://arxiv.org/abs/2609.38968",
+    "code": "https://github.com/GMY628/RCS-Fusion",
+    "tasks": [
+      "general"
+    ],
+    "tags": [
+      "监督空间",
+      "语义先验"
+    ],
+    "summary": "把监督从像素匹配扩展到关系空间；关注适配器训练与交替优化。",
+    "publication_status": "预印本",
+    "verification": "预印本来源已核对",
+    "sources": [
+      "https://github.com/GMY628/RCS-Fusion/blob/main/README.md",
+      "https://arxiv.org/abs/2609.38968"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仅公告/页面，尚未核实可运行实现",
+    "note": "作者仓库写 NIPS2026，未核实接收记录，暂按预印本收录。",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "uhd-mff",
+    "name": "UHD-MFF",
+    "title": "UHD-MFF: Shattering Barriers in Multi-Focus Ultra-High-Definition Image Fusion via Learnable Lookup Tables",
+    "year": 2026,
+    "venue": "ECCV（作者声明）",
+    "repo": "zyb5/UHD-MFF",
+    "paper": "https://arxiv.org/abs/2606.31242",
+    "code": "https://github.com/zyb5/UHD-MFF",
+    "tasks": [
+      "focus"
+    ],
+    "tags": [
+      "LUT",
+      "轻量化",
+      "超高清"
+    ],
+    "summary": "研究高分辨率多聚焦数据与查找表实现。",
+    "publication_status": "作者声明，待出版平台核对",
+    "verification": "作者声明，待独立核对",
+    "sources": [
+      "https://github.com/zyb5/UHD-MFF/blob/main/README.md",
+      "https://arxiv.org/abs/2606.31242"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仅公告/页面，尚未核实可运行实现",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "chitnet",
+    "name": "CHITNet",
+    "title": "CHITNet: A Complementary to Harmonious Information Transfer Network for Infrared and Visible Image Fusion",
+    "year": 2025,
+    "venue": "TIM",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [],
+    "paper": null,
+    "code": "https://github.com/lhf12278/CHITNet",
+    "repo": "lhf12278/CHITNet",
+    "summary": "原始收藏；研究问题与技术标签待进一步核对。",
+    "publication_status": "待核对",
+    "verification": "作者来源已读，出版信息待核对",
+    "sources": [
+      "https://github.com/lhf12278/CHITNet/blob/main/README.md"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "原表与作者引用中的年份/发表信息存在差异，暂不作为已核实发表元数据。",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "conti-fuse",
+    "name": "Conti-Fuse",
+    "title": "Conti-Fuse: A Novel Continuous Decomposition-based Fusion Framework for Infrared and Visible Images",
+    "year": 2025,
+    "venue": "IF",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [
+      "分解"
+    ],
+    "paper": "https://arxiv.org/abs/2406.04689",
+    "code": "https://github.com/zipper112/Conti-Fuse",
+    "repo": "zipper112/Conti-Fuse",
+    "summary": "从连续分解角度研究互补信息整合。",
+    "publication_status": "待核对",
+    "verification": "作者来源已读，出版信息待核对",
+    "sources": [
+      "https://github.com/zipper112/Conti-Fuse/blob/master/README.md",
+      "https://arxiv.org/abs/2406.04689"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表信息尚未完成核对"
+  },
+  {
+    "id": "ctiufuse",
+    "name": "CTIUFuse",
+    "title": "CTIUFuse: A CNN-Transformer-based iterative feature universal fusion algorithm for multimodal images",
+    "year": 2025,
+    "venue": "KBS",
+    "tasks": [
+      "general"
+    ],
+    "tags": [
+      "通用融合"
+    ],
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0950705125013541?via%3Dihub",
+    "code": "https://github.com/L1nCyk/CTIUFuse",
+    "repo": "L1nCyk/CTIUFuse",
+    "summary": "研究跨融合场景的共享表示或训练机制；逐任务检查泛化证据。",
+    "publication_status": "待核对",
+    "verification": "作者来源已读，出版信息待核对",
+    "sources": [
+      "https://github.com/L1nCyk/CTIUFuse/blob/main/README.md",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0950705125013541?via%3Dihub"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仅公告，尚未提供代码",
+    "note": "README 当前为 Code coming soon。",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "dprf",
+    "name": "DPRF",
+    "title": "Dual-Pyramid Framework for Robust Infrared-Visible Image Registration and Fusion via Convolutional Dictionary Learning",
+    "year": 2025,
+    "venue": "The Visual Computer",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [
+      "配准"
+    ],
+    "paper": null,
+    "code": "https://github.com/fdaijdfina/DPRF",
+    "repo": "fdaijdfina/DPRF",
+    "summary": "研究非严格对齐输入下的融合；比较配准误差与融合质量。",
+    "publication_status": "正式发表",
+    "verification": "作者出版信息已核对",
+    "sources": [
+      "https://github.com/fdaijdfina/DPRF/blob/main/README.md"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "dtmfusion",
+    "name": "DTMFusion",
+    "title": "Dual-teacher self-distillation registration for multi-modality medical image fusion",
+    "year": 2025,
+    "venue": "PR",
+    "tasks": [
+      "medical"
+    ],
+    "tags": [
+      "配准"
+    ],
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0031320325010349?via%3Dihub",
+    "code": null,
+    "repo": "",
+    "summary": "原始收藏；研究问题与技术标签待进一步核对。",
+    "publication_status": "待核对",
+    "verification": "待核对",
+    "sources": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0031320325010349?via%3Dihub"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表信息尚未完成核对"
+  },
+  {
+    "id": "f2fusion",
+    "name": "F2Fusion",
+    "title": "F2Fusion: Frequency Feature Fusion Network for Infrared and Visible Image via Contourlet Transform and Mamba-UNet",
+    "year": 2025,
+    "venue": "TIM",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [
+      "Mamba"
+    ],
+    "paper": null,
+    "code": "https://github.com/lrh-1994/F2Fusion",
+    "repo": "lrh-1994/F2Fusion",
+    "summary": "使用状态空间建模；核对实际推理速度与高分辨率显存开销。",
+    "publication_status": "待核对",
+    "verification": "作者来源已读，出版信息待核对",
+    "sources": [
+      "https://github.com/lrh-1994/F2Fusion/blob/main/README.md"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "freefusion",
+    "name": "FreeFusion",
+    "title": "FreeFusion: Infrared and Visible Image Fusion via Cross Reconstruction Learning",
+    "year": 2025,
+    "venue": "TPAMI",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [
+      "重建学习"
+    ],
+    "paper": "https://ieeexplore.ieee.org/document/11010882",
+    "code": "https://github.com/HengshuaiCui/FreeFusion",
+    "repo": "HengshuaiCui/FreeFusion",
+    "summary": "通过跨模态重建研究融合监督。",
+    "publication_status": "待核对",
+    "verification": "作者来源已读，出版信息待核对",
+    "sources": [
+      "https://github.com/HengshuaiCui/FreeFusion/blob/main/README.md",
+      "https://ieeexplore.ieee.org/document/11010882"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表信息尚未完成核对"
+  },
+  {
+    "id": "mixfuse",
+    "name": "MixFuse",
+    "title": "MixFuse: An iterative mix-attention transformer for multi-modal image fusion",
+    "year": 2025,
+    "venue": "ESWA",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [
+      "Transformer"
+    ],
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0957417424022942?via%3Dihub",
+    "code": "https://github.com/Bitlijinfu/MixFuse",
+    "repo": "Bitlijinfu/MixFuse",
+    "summary": "研究跨模态特征交互与全局信息建模。",
+    "publication_status": "正式发表",
+    "verification": "作者出版信息已核对",
+    "sources": [
+      "https://github.com/Bitlijinfu/MixFuse/blob/main/README.md",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0957417424022942?via%3Dihub"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "mlfuse",
+    "name": "MLFuse",
+    "title": "MLFuse: Multi-scenario Feature Joint Learning for Multi-Modality Image Fusion",
+    "year": 2025,
+    "venue": "TMM",
+    "tasks": [
+      "general"
+    ],
+    "tags": [
+      "通用融合"
+    ],
+    "paper": null,
+    "code": "https://github.com/jialei-sc/MLFuse",
+    "repo": "jialei-sc/MLFuse",
+    "summary": "研究跨融合场景的共享表示或训练机制；逐任务检查泛化证据。",
+    "publication_status": "待核对",
+    "verification": "作者来源已读，出版信息待核对",
+    "sources": [
+      "https://github.com/jialei-sc/MLFuse/blob/main/README.md"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表信息尚未完成核对"
+  },
+  {
+    "id": "mspfusion",
+    "name": "MSPFusion",
+    "title": "MSPFusion: A feature transformer for multidimensional Spectral-Polarization image fusion",
+    "year": 2025,
+    "venue": "ESWA",
+    "tasks": [
+      "polar"
+    ],
+    "tags": [
+      "Transformer",
+      "偏振"
+    ],
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0957417425007018?via%3Dihub",
+    "code": "https://github.com/tgg-77/MSPFusion",
+    "repo": "tgg-77/MSPFusion",
+    "summary": "联合光谱与偏振信息；与常规热红外融合区分。",
+    "publication_status": "正式发表",
+    "verification": "作者出版信息已核对",
+    "sources": [
+      "https://github.com/tgg-77/MSPFusion/blob/main/README.md",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0957417425007018?via%3Dihub"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "psrf-diffnet",
+    "name": "PSRF-DiffNet",
+    "title": "Progressive Synergistic Registration and Fusion Diffusion Network for Unregistered Hyperspectral and Multispectral Image Fusion",
+    "year": 2025,
+    "venue": "TGRS",
+    "tasks": [
+      "remote"
+    ],
+    "tags": [
+      "配准",
+      "扩散"
+    ],
+    "paper": "https://ieeexplore.ieee.org/document/10976398",
+    "code": "https://github.com/Jiahuiqu/PSRF-DiffNet",
+    "repo": "Jiahuiqu/PSRF-DiffNet",
+    "summary": "空间与光谱信息联合重建；需使用遥感任务专用指标。",
+    "publication_status": "待核对",
+    "verification": "作者来源已读，出版信息待核对",
+    "sources": [
+      "https://github.com/Jiahuiqu/PSRF-DiffNet/blob/main/README.md",
+      "https://ieeexplore.ieee.org/document/10976398"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表信息尚未完成核对"
+  },
+  {
+    "id": "s4fusion",
+    "name": "S4Fusion",
+    "title": "S4Fusion: Saliency-Aware Selective State Space Model for Infrared and Visible Image Fusion",
+    "year": 2025,
+    "venue": "TIP",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [
+      "Mamba"
+    ],
+    "paper": "https://ieeexplore.ieee.org/document/11062462",
+    "code": "https://github.com/zipper112/S4Fusion",
+    "repo": "zipper112/S4Fusion",
+    "summary": "使用状态空间建模；核对实际推理速度与高分辨率显存开销。",
+    "publication_status": "待核对",
+    "verification": "作者来源已读，出版信息待核对",
+    "sources": [
+      "https://github.com/zipper112/S4Fusion/blob/main/README.md",
+      "https://ieeexplore.ieee.org/document/11062462"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表信息尚未完成核对"
+  },
+  {
+    "id": "sa-dnet",
+    "name": "SA-DNet",
+    "title": "An end-to-end semantic-guided infrared and visible registration-fusion network for advanced visual tasks",
+    "year": 2025,
+    "venue": "EAAI",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [
+      "配准"
+    ],
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0952197625004890?via%3Dihub",
+    "code": "https://github.com/Meng-Sang/SA-DNet",
+    "repo": "Meng-Sang/SA-DNet",
+    "summary": "研究非严格对齐输入下的融合；比较配准误差与融合质量。",
+    "publication_status": "正式发表",
+    "verification": "作者出版信息已核对",
+    "sources": [
+      "https://github.com/Meng-Sang/SA-DNet/blob/master/README.md",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0952197625004890?via%3Dihub"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "smafusion",
+    "name": "SMAFusion",
+    "title": "SMAFusion: Multimodal medical image fusion based on spatial registration and local-global multi-scale feature adaptive fusion",
+    "year": 2025,
+    "venue": "Neurocomputing",
+    "tasks": [
+      "medical"
+    ],
+    "tags": [
+      "配准"
+    ],
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0925231225017114?via%3Dihub",
+    "code": null,
+    "repo": "",
+    "summary": "原始收藏；研究问题与技术标签待进一步核对。",
+    "publication_status": "待核对",
+    "verification": "待核对",
+    "sources": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0925231225017114?via%3Dihub"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "ssc-hsr",
+    "name": "SSC-HSR",
+    "title": "Unaligned RGB Guided Hyperspectral Image Super-Resolution with Spatial-Spectral Concordance",
+    "year": 2025,
+    "venue": "IJCV",
+    "tasks": [
+      "remote"
+    ],
+    "tags": [
+      "配准",
+      "超分辨率"
+    ],
+    "paper": "https://link.springer.com/article/10.1007/s11263-025-02466-8",
+    "code": "https://github.com/BITYKZhang/SSC-HSR",
+    "repo": "BITYKZhang/SSC-HSR",
+    "summary": "空间与光谱信息联合重建；需使用遥感任务专用指标。",
+    "publication_status": "待核对",
+    "verification": "待核对",
+    "sources": [
+      "https://link.springer.com/article/10.1007/s11263-025-02466-8"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "来源读取未完成",
+    "note": "",
+    "exclusion_reason": "发表信息尚未完成核对"
+  },
+  {
+    "id": "fusionmamba",
+    "name": "FusionMamba",
+    "title": "FusionMamba: Dynamic Feature Enhancement for Multimodal Image Fusion with Mamba",
+    "year": 2024,
+    "venue": "Visual Intelligence",
+    "repo": "millieXie/FusionMamba",
+    "paper": "https://doi.org/10.1007/s44267-024-00072-9",
+    "code": "https://github.com/millieXie/FusionMamba",
+    "tasks": [
+      "general",
+      "medical"
+    ],
+    "tags": [
+      "Mamba",
+      "动态特征"
+    ],
+    "summary": "融合局部动态增强与状态空间交互，包含 CT–MRI、PET–MRI 等应用。",
+    "publication_status": "正式发表",
+    "verification": "作者出版信息已核对",
+    "sources": [
+      "https://github.com/millieXie/FusionMamba/blob/main/README.md",
+      "https://doi.org/10.1007/s44267-024-00072-9"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "swinfusion",
+    "name": "SwinFusion",
+    "title": "SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer",
+    "year": 2022,
+    "venue": "IEEE/CAA JAS",
+    "repo": "Linfeng-Tang/SwinFusion",
+    "paper": "https://ieeexplore.ieee.org/document/9812535",
+    "code": "https://github.com/Linfeng-Tang/SwinFusion",
+    "tasks": [
+      "general",
+      "focus",
+      "exposure",
+      "medical"
+    ],
+    "tags": [
+      "Transformer",
+      "通用融合"
+    ],
+    "summary": "通过跨域长程交互建模多源信息，适合与 CNN 基线比较。",
+    "publication_status": "正式发表",
+    "verification": "作者出版信息已核对",
+    "sources": [
+      "https://github.com/Linfeng-Tang/SwinFusion/blob/master/README.md",
+      "https://ieeexplore.ieee.org/document/9812535"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  },
+  {
+    "id": "nestfuse",
+    "name": "NestFuse",
+    "title": "NestFuse: An Infrared and Visible Image Fusion Architecture Based on Nest Connection and Spatial/Channel Attention Models",
+    "year": 2020,
+    "venue": "TIM",
+    "repo": "hli1221/imagefusion-nestfuse",
+    "paper": "https://ieeexplore.ieee.org/document/9127964",
+    "code": "https://github.com/hli1221/imagefusion-nestfuse",
+    "tasks": [
+      "ivif"
+    ],
+    "tags": [
+      "自编码器",
+      "注意力"
+    ],
+    "summary": "通过嵌套连接与空间/通道注意力整合多尺度特征。",
+    "publication_status": "正式发表",
+    "verification": "作者出版信息已核对",
+    "sources": [
+      "https://github.com/hli1221/imagefusion-nestfuse/blob/master/README.md",
+      "https://ieeexplore.ieee.org/document/9127964"
+    ],
+    "checked_at": "2026-10-09",
+    "code_status": "仓库已定位，未运行",
+    "note": "",
+    "exclusion_reason": "发表渠道不在本次范围"
+  }
+]
