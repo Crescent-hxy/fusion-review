@@ -4,7 +4,7 @@
 
 A collection of image fusion papers and code, focusing on publications since 2024: infrared and visible image fusion, multimodal medical image fusion, multi-focus fusion, multi-exposure fusion, remote sensing, and video fusion.
 
-**74 篇论文 · 重点更新 2024 年以来的研究**
+**84 篇论文 · 重点更新 2024 年以来的研究**
 
 按下方任务目录查找论文与代码，数据集索引见文末。
 
@@ -14,9 +14,9 @@ A collection of image fusion papers and code, focusing on publications since 202
 
 | 任务 | 论文数 | 入口 |
 | :-- | --: | :-- |
-| 红外与可见光 | 48 | [查看](#ivif) |
+| 红外与可见光 | 58 | [查看](#ivif) |
 | 医学图像 | 15 | [查看](#medical) |
-| 通用融合 | 21 | [查看](#general) |
+| 通用融合 | 22 | [查看](#general) |
 | 多聚焦 | 7 | [查看](#focus) |
 | 多曝光 | 7 | [查看](#exposure) |
 | 遥感与高光谱 | 1 | [查看](#remote) |
@@ -43,6 +43,11 @@ A collection of image fusion papers and code, focusing on publications since 202
 | **ReCoFuse** | 2026 · CVPR | ReCoFuse: Ultra-Robust Image Fusion via Restorative Multi-Modal Diffusion Reciprocal Coupling | 扩散 / 退化鲁棒 | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_ReCoFuse_Ultra-Robust_Image_Fusion_via_Restorative_Multi-Modal_Diffusion_Reciprocal_Coupling_CVPR_2026_paper.html) · [Code](https://github.com/HaoZhang1018/ReCoFuse) |
 | **RegionFuse** | 2026 · CVPR | RegionFuse: Region-Adaptive Pixel Distribution Learning for Infrared and Visible Image Fusion | 区域自适应 / 分布学习 | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xia_RegionFuse_Region-Adaptive_Pixel_Distribution_Learning_for_Infrared_and_Visible_Image_CVPR_2026_paper.html) · [Code](https://github.com/DarkIceField/RegionFuse)（代码待发布） |
 | **TEDFusion** | 2026 · ICML | Text-Driven Fusion for Infrared and Visible Images: Achieving Image Scene Adaptation on Hyperbolic Space | 文本训练先验 / 双曲空间 | [Paper](https://proceedings.mlr.press/v306/kang26k.html) · [Code](https://github.com/Shaoyun2023/TEDFusion) |
+| **CtrlFuse** | 2026 · AAAI | CtrlFuse: Mask-Prompt Guided Controllable Infrared and Visible Image Fusion | 掩码提示 / 可控融合 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37884) · — |
+| **DAFusion** | 2026 · AAAI | Domain Adaptation Guided Infrared and Visible Image Fusion | 域适应 / 泛化 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/42435) · — |
+| **MdaIF** | 2026 · AAAI | MdaIF: Robust One-Stop Multi-Degradation-Aware Image Fusion with Language-Driven Semantics | 多退化 / 语言语义 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37548) · — |
+| **Hybrid Space Model** | 2026 · AAAI | A Hybrid Space Model for Misaligned Multi-modality Image Fusion | 错位融合 / 欧氏双曲空间 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38078) · — |
+| **Dynamic Inertia Inhibition** | 2026 · AAAI | Revisiting Network Inertia: Dynamic Inertia Inhibition Coupled Multidimensional Periodicity for Infrared and Visible Image Fusion | 动态惯性抑制 / 多维周期建模 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37309) · — |
 | **C2RF** | 2025 · IJCV | C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning | 配准 | [Paper](https://doi.org/10.1007/s11263-025-02427-1) · [Code](https://github.com/QinglongYan-hub/C2RF) |
 | **ControlFusion** | 2025 · NeurIPS | ControlFusion: A Controllable Image Fusion Framework with Language-Vision Degradation Prompts | 文本引导 / 可控融合 / 退化鲁棒 | [Paper](https://arxiv.org/abs/2503.23356) · [Code](https://github.com/Linfeng-Tang/ControlFusion) |
 | **DCEvo** | 2025 · CVPR | DCEvo: Discriminative Cross-dimensional Evolutionary Learning for Infrared and Visible Image Fusion | 任务驱动 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_DCEvo_Discriminative_Cross-Dimensional_Evolutionary_Learning_for_Infrared_and_Visible_Image_CVPR_2025_paper.html) · [Code](https://github.com/Beate-Suy-Zhang/DCEvo) |
@@ -65,11 +70,16 @@ A collection of image fusion papers and code, focusing on publications since 202
 | **TDFusion** | 2025 · CVPR | Task-driven Image Fusion with Learnable Fusion Loss | 任务驱动 / 可学习损失 | [Paper](https://arxiv.org/pdf/2412.03240) · [Code](https://github.com/HaowenBai/TDFusion) |
 | **TextFusion** | 2025 · Information Fusion | TextFusion: Unveiling the Power of Textual Semantics for Controllable Image Fusion | 文本引导 / 可控融合 | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1566253524005682?casa_token=wIR2KSNJG6sAAAAA:TITMGkb8jaVZ9EDKYhxK5XhWMKok2k62RgFkldDQsjvI6EpTty4gvcHXR1Cq52AFsdsVOF9IDw) · [Code](https://github.com/AWCXV/TextFusion) |
 | **TITA** | 2025 · ICCV | Balancing task-invariant interaction and task-specific adaptation for unified image fusion | 通用融合 / 自适应 / 多任务优化 | [Paper](https://arxiv.org/pdf/2504.05164) · [Code](https://github.com/huxingyuabc/TITA) |
+| **MMAIF** | 2025 · ICCV | MMAIF: Multi-task and Multi-degradation All-in-One for Image Fusion with Language Guidance | 统一融合 / 退化鲁棒 / 语言引导 | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Cao_MMAIF_Multi-task_and_Multi-degradation_All-in-One_for_Image_Fusion_with_Language_ICCV_2025_paper.html) · — |
+| **Highlight What You Want** | 2025 · ICCV | Highlight What You Want: Weakly-Supervised Instance-Level Controllable Infrared-Visible Image Fusion | 弱监督 / 实例级可控融合 | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Highlight_What_You_Want_Weakly-Supervised_Instance-Level_Controllable_Infrared-Visible_Image_Fusion_ICCV_2025_paper.html) · — |
+| **A2RNet** | 2025 · AAAI | A²RNet: Adversarial Attack Resilient Network for Robust Infrared and Visible Image Fusion | 对抗鲁棒 / 安全性 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32504) · — |
 | **EMMA** | 2024 · CVPR | Equivariant Multi-Modality Image Fusion | 等变性 / 自监督 | — · [Code](https://github.com/Zhaozixiang1228/MMIF-EMMA) |
 | **IMF** | 2024 · TCSVT | Improving Misaligned Multi-modality Image Fusion with One-stage Progressive Dense Registration | 配准 | [Paper](https://arxiv.org/pdf/2308.11165) · [Code](https://github.com/wdhudiekou/IMF) |
 | **ReFusion** | 2024 · IJCV | ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning | 元学习 / 可学习损失 / 重建学习 | [Paper](https://doi.org/10.1007/s11263-024-02256-8) · [Code](https://github.com/HaowenBai/ReFusion) |
 | **Text-IF** | 2024 · CVPR | Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion | 文本引导 / 可控融合 / 退化鲁棒 | [Paper](https://arxiv.org/abs/2403.16387) · [Code](https://github.com/Linfeng-Tang/Text-IF) |
 | **DRMF** | 2024 · ACM MM | DRMF: Degradation-Robust Multi-Modal Image Fusion via Composable Diffusion Prior | 扩散 / 退化鲁棒 | [Paper](https://doi.org/10.1145/3664647.3681064) · [Code](https://github.com/Linfeng-Tang/DRMF) |
+| **EVIF** | 2024 · CVPR | Event-based Visible and Infrared Fusion via Multi-task Collaboration | 事件相机 / 去模糊 / 多任务 | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Geng_Event-based_Visible_and_Infrared_Fusion_via_Multi-task_Collaboration_CVPR_2024_paper.html) · — |
+| **SHIP** | 2024 · CVPR | Probing Synergistic High-Order Interaction in Infrared and Visible Image Fusion | 高阶交互 / 跨模态特征 | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Probing_Synergistic_High-Order_Interaction_in_Infrared_and_Visible_Image_Fusion_CVPR_2024_paper.html) · — |
 | **CDDFuse** | 2023 · CVPR | CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion. | 特征分解 / 相关性 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) · [Code](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) |
 | **DDFM** | 2023 · ICCV | DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion | 扩散 / 无监督 | [Paper](https://arxiv.org/abs/2303.06840) · [Code](https://github.com/Zhaozixiang1228/MMIF-DDFM) |
 | **SegMiF** | 2023 · ICCV | Multi-interactive Feature Learning and a Full-time Multi-modality Benchmark for Image Fusion and Segmentation | 任务驱动 / 分割 | [Paper](https://arxiv.org/abs/2308.02097) · [Code](https://github.com/JinyuanLiu-CV/SegMiF) |
@@ -118,6 +128,7 @@ A collection of image fusion papers and code, focusing on publications since 202
 | **LFDT-Fusion** | 2025 · Information Fusion | LFDT-Fusion: A Latent Feature-guided Diffusion Transformer Model for General Image Fusion | 扩散 / Transformer / 潜空间 | [Paper](https://doi.org/10.1016/j.inffus.2024.102639) · [Code](https://github.com/BOYang-pro/LFDT-Fusion) |
 | **MMAE** | 2025 · Pattern Recognition | MMAE: A universal image fusion method via mask attention mechanism | 通用融合 | [Paper](https://doi.org/10.1016/j.patcog.2024.111041) · [Code](https://github.com/xiangxiang-wang/MMAE) |
 | **TITA** | 2025 · ICCV | Balancing task-invariant interaction and task-specific adaptation for unified image fusion | 通用融合 / 自适应 / 多任务优化 | [Paper](https://arxiv.org/pdf/2504.05164) · [Code](https://github.com/huxingyuabc/TITA) |
+| **MMAIF** | 2025 · ICCV | MMAIF: Multi-task and Multi-degradation All-in-One for Image Fusion with Language Guidance | 统一融合 / 退化鲁棒 / 语言引导 | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Cao_MMAIF_Multi-task_and_Multi-degradation_All-in-One_for_Image_Fusion_with_Language_ICCV_2025_paper.html) · — |
 | **EMMA** | 2024 · CVPR | Equivariant Multi-Modality Image Fusion | 等变性 / 自监督 | — · [Code](https://github.com/Zhaozixiang1228/MMIF-EMMA) |
 | **ReFusion** | 2024 · IJCV | ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning | 元学习 / 可学习损失 / 重建学习 | [Paper](https://doi.org/10.1007/s11263-024-02256-8) · [Code](https://github.com/HaowenBai/ReFusion) |
 | **UAAFusion** | 2024 · TCSVT | Deep unfolding multi-modal image fusion network via attribution analysis | 深度展开 / 归因分析 | [Paper](https://arxiv.org/abs/2502.01467) · [Code](https://github.com/HaowenBai/UAAFusion) |
